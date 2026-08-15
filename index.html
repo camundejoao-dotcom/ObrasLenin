@@ -3,322 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>O Estado e a Revolução - V. I. Lenin</title>
-  
+  <title>Tradução das Obras Completas de V. I. Lênin</title>
   <style>
-    /* --------------------------------------------------
-       1. VARIÁVEIS E CONFIGURAÇÕES GERAIS
-       -------------------------------------------------- */
     :root {
-      --bg-color: #faf9f6;         /* Tom levemente amarelado/papel, reduz fadiga visual */
-      --text-color: #222222;       /* Texto escuro suave, em vez de preto puro */
-      --accent-color: #8b0000;     /* Vermelho escuro/acadêmico para destaques e links */
+      --bg-color: #faf9f6;
+      --text-color: #222222;
+      --accent-color: #8b0000;
       --accent-hover: #b22222;
-      --muted-text: #666666;       /* Cor para metadados e notas */
       --border-color: #e0ddd5;
-      
-      --font-serif: "Georgia", "Cambria", "Times New Roman", serif;
-      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      
-      --reading-width: 68ch;       /* Largura ideal de coluna para leitura contínua */
+      --font-serif: "Georgia", "Cambria", serif;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       background-color: var(--bg-color);
       color: var(--text-color);
       font-family: var(--font-serif);
-      font-size: 1.125rem;        /* 18px base - ideal para leitura longa */
-      line-height: 1.7;            /* Espaçamento entrelinhas relaxado */
+      font-size: 1.125rem;
+      line-height: 1.7;
       padding: 2rem 1rem;
-      text-rendering: optimizeLegibility;
-      -webkit-font-smoothing: antialiased;
     }
-
-    /* --------------------------------------------------
-       2. LAYOUT RESPONSIVO
-       -------------------------------------------------- */
     .container {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 3rem;
-    }
-
-    /* Em telas maiores, ativa o menu lateral de navegação */
-    @media (min-width: 900px) {
-      .container {
-        grid-template-columns: 240px 1fr;
-      }
-    }
-
-    /* --------------------------------------------------
-       3. NAVEGAÇÃO LATERAL (SUMÁRIO FIXO)
-       -------------------------------------------------- */
-    .sidebar {
-      font-family: var(--font-sans);
-      font-size: 0.9rem;
-    }
-
-    .sticky-nav {
-      position: sticky;
-      top: 2rem;
-      padding-right: 1rem;
-      border-right: 1px solid var(--border-color);
-    }
-
-    .sidebar h3 {
-      text-transform: uppercase;
-      font-size: 0.75rem;
-      letter-spacing: 1px;
-      color: var(--muted-text);
-      margin-bottom: 1rem;
-    }
-
-    .sidebar ul {
-      list-style: none;
-    }
-
-    .sidebar li {
-      margin-bottom: 0.75rem;
-    }
-
-    .sidebar a {
-      color: var(--text-color);
-      text-decoration: none;
-      transition: color 0.2s ease;
-    }
-
-    .sidebar a:hover {
-      color: var(--accent-color);
-    }
-
-    /* --------------------------------------------------
-       4. CONTEÚDO PRINCIPAL (ARTIGO ACADÊMICO)
-       -------------------------------------------------- */
-    main {
-      max-width: var(--reading-width);
-      width: 100%;
+      max-width: 800px;
       margin: 0 auto;
     }
-
-    header.article-header {
-      margin-bottom: 3rem;
+    header {
+      border-bottom: 2px solid var(--accent-color);
       padding-bottom: 1.5rem;
-      border-bottom: 2px solid var(--text-color);
+      margin-bottom: 2.5rem;
     }
-
-    .article-title {
-      font-size: 2.5rem;
-      line-height: 1.2;
-      font-weight: 700;
-      margin-bottom: 0.75rem;
-    }
-
-    .article-subtitle {
-      font-size: 1.35rem;
-      color: var(--muted-text);
-      font-style: italic;
-      font-weight: 400;
-      margin-bottom: 1.5rem;
-    }
-
-    .meta-data {
-      font-family: var(--font-sans);
-      font-size: 0.875rem;
-      color: var(--muted-text);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-    }
-
-    /* --------------------------------------------------
-       5. ELEMENTOS DE TEXTO
-       -------------------------------------------------- */
-    p {
-      margin-bottom: 1.5rem;
-      text-align: justify;
-      hyphens: auto;
-    }
-
-    h2 {
-      font-size: 1.75rem;
-      margin-top: 3rem;
-      margin-bottom: 1.25rem;
-      line-height: 1.3;
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 0.5rem;
-    }
-
-    h3 {
-      font-size: 1.35rem;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-    }
-
-    a {
+    h1 {
+      font-size: 2.2rem;
       color: var(--accent-color);
-      text-decoration: underline;
-      text-underline-offset: 3px;
-    }
-
-    a:hover {
-      color: var(--accent-hover);
-    }
-
-    /* Citação Recuada Acadêmica */
-    blockquote {
-      margin: 2rem 0;
-      padding-left: 1.5rem;
-      border-left: 3px solid var(--accent-color);
-      font-style: italic;
-      color: #333333;
-    }
-
-    blockquote p {
-      text-align: left;
       margin-bottom: 0.5rem;
     }
-
-    blockquote cite {
-      display: block;
-      font-size: 0.875rem;
-      font-style: normal;
+    p.description {
       font-family: var(--font-sans);
-      color: var(--muted-text);
+      color: #555;
+      font-size: 1rem;
     }
-
-    /* Chamada de Nota de Rodapé */
-    .footnote-ref {
-      font-size: 0.75rem;
-      vertical-align: super;
-      line-height: 0;
-      font-weight: bold;
-      text-decoration: none;
-      padding: 0 2px;
+    .volume-card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
     }
-
-    /* --------------------------------------------------
-       6. SEÇÃO DE NOTAS DE RODAPÉ
-       -------------------------------------------------- */
-    footer.footnotes {
-      margin-top: 4rem;
-      padding-top: 2rem;
-      border-top: 1px solid var(--border-color);
-      font-size: 0.9rem;
-      color: var(--muted-text);
+    .volume-card h2 {
+      font-size: 1.35rem;
+      margin-bottom: 0.5rem;
     }
-
-    footer.footnotes h4 {
-      font-family: var(--font-sans);
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+    .volume-card p {
+      font-size: 0.95rem;
+      color: #666;
       margin-bottom: 1rem;
     }
-
-    footer.footnotes ol {
-      padding-left: 1.2rem;
+    .volume-card a {
+      display: inline-block;
+      font-family: var(--font-sans);
+      font-weight: bold;
+      color: var(--accent-color);
+      text-decoration: none;
     }
-
-    footer.footnotes li {
-      margin-bottom: 0.5rem;
-    }
+    .volume-card a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
-
   <div class="container">
-    
-    <!-- Menu Lateral de Navegação (Sumário) -->
-    <aside class="sidebar">
-      <nav class="sticky-nav">
-        <h3>Índice da Obra</h3>
-        <ul>
-          <li><a href="#capitulo-1">Capítulo I: A Sociedade de Classes</a></li>
-          <li><a href="#capitulo-2">Capítulo II: As Experiências de 1848-1851</a></li>
-          <li><a href="#notas">Notas Explicativas</a></li>
-        </ul>
-      </nav>
-    </aside>
+    <header>
+      <h1>Obras Completas de V. I. Lênin</h1>
+      <p class="description">Tradução para o português a partir das edições de Moscou (Progress Publishers).</p>
+    </header>
 
-    <!-- Conteúdo Principal do Texto -->
     <main>
-      
-      <header class="article-header">
-        <h1 class="article-title">O Estado e a Revolução</h1>
-        <p class="article-subtitle">A doutrina do marxismo sobre o Estado e as tarefas do proletariado na revolução</p>
-        
-        <div class="meta-data">
-          <span><strong>Autor:</strong> V. I. Lenin</span>
-          <span><strong>Data de Escrita:</strong> Agosto-Setembro de 1917</span>
-          <span><strong>Tradução:</strong> Coleção Acadêmica</span>
-        </div>
-      </header>
+      <div class="volume-card">
+        <h2>Volume 6: Cartas (1902–1903)</h2>
+        <p>Coletânea com 6 cartas de V. I. Lênin abordando a organização partidária, os Zemstvos e a luta contra o economismo.</p>
+        <a href="textos/cartas-1902.html">Ler Volume 6: Cartas →</a>
+      </div>
 
-      <article>
-        
-        <section id="capitulo-1">
-          <h2>Capítulo I: A Sociedade de Classes e o Estado</h2>
-          
-          <p>
-            O Estado é o produto e a manifestação do caráter inconciliável das contradições de classe. O Estado surge onde, quando e na medida em que as contradições de classe não podem, objetivamente, conciliar-se.<a href="#fn1" class="footnote-ref" id="fnref1">[1]</a> E reciprocamente: a existência do Estado prova que as contradições de classe são inconciliáveis.
-          </p>
-
-          <p>
-            É precisamente neste ponto de capital importância, essencial, que começa a distorção do marxismo, que se realiza em duas linhas principais. Por um lado, os ideólogos burgueses e, sobretudo, pequeno-burgueses — forçados sob a pressão de fatos históricos incontestáveis a reconhecer que o Estado só existe onde há contradições de classe — "corrigem" Marx de modo a fazer parecer que o Estado é um órgão de conciliação de classes.
-          </p>
-
-          <blockquote>
-            <p>"Se o Estado é o produto do caráter inconciliável das contradições de classe, se ele é um poder que se coloca acima da sociedade e que 'se aliena cada vez mais da sociedade', torna-se claro que a libertação da classe oprimida é impossível não só sem uma revolução violenta, mas também sem a destruição do aparelho do poder de Estado."</p>
-            <cite>— V. I. Lenin, Trecho extraído do Cap. I</cite>
-          </blockquote>
-
-          <p>
-            Segundo Marx, o Estado é um órgão de dominação de classe, um órgão de opressão de uma classe por outra; é a criação de uma "ordem" que legaliza e consolida essa opressão, moderando o conflito entre as classes.
-          </p>
-        </section>
-
-        <section id="capitulo-2">
-          <h2>Capítulo II: As Experiências de 1848-1851</h2>
-          
-          <p>
-            Nos primeiros trabalhos do marxismo amadurecido, <em>A Miséria da Filosofia</em> e o <em>Manifesto Comunista</em>, encontramos uma formulação geral do problema, bem como uma exposição dos fundamentos históricos do tema.<a href="#fn2" class="footnote-ref" id="fnref2">[2]</a>
-          </p>
-          
-          <p>
-            Todas as revoluções anteriores aperfeiçoaram a máquina do Estado, quando o que era preciso era quebrá-la, destruí-la. Esta dedução é o principal, o fundamental na doutrina do marxismo sobre o Estado.
-          </p>
-        </section>
-
-      </article>
-
-      <!-- Seção de Notas de Rodapé -->
-      <footer class="footnotes" id="notas">
-        <h4>Notas de Rodapé</h4>
-        <ol>
-          <li id="fn1">
-            Nota explicativa sobre o conceito de antagonismo de classe na obra leninista. <a href="#fnref1">↩ Voltar ao texto</a>
-          </li>
-          <li id="fn2">
-            Referências cruzadas com a edição das Obras Escolhidas de Marx e Engels. <a href="#fnref2">↩ Voltar ao texto</a>
-          </li>
-        </ol>
-      </footer>
-
+      <div class="volume-card">
+        <h2>Volume 6: Material para o Programa do POSDR (1902)</h2>
+        <p>Documentos preparatórios, críticas e notas sobre o projeto do Programa do Partido Operário Social-Democrata Russo.</p>
+        <a href="textos/programa-posdr.html">Ler Documentos do Programa →</a>
+      </div>
     </main>
-
   </div>
-
 </body>
 </html>
