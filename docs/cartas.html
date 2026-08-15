@@ -48,6 +48,29 @@
     ol, ul { margin-left: 1.5rem; margin-bottom: 1.5rem; }
     li { margin-bottom: 0.5rem; }
     a { color: var(--accent-color); }
+    /* Botão Flutuante de Voltar ao Topo */
+.btn-topo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--accent-color);
+  color: #ffffff !important;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 50px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-topo:hover {
+  background-color: #b22222;
+  transform: translateY(-2px);
+}
+
   </style>
 </head>
 <body>
@@ -301,5 +324,6 @@
       <p>E só depois de aprendermos a aplicar essa publicidade interna ao Partido em larga escala é que realmente seremos capazes de acumular experiência no funcionamento das diversas organizações; só com base em tal experiência extensa, ao longo de muitos anos, seremos capazes de elaborar um Regulamento que não seja um mero Regulamento de papel.</p>
     </article>
   </main>
+  <a href="#top" class="btn-topo">↑ Topo</a>
 </body>
 </html>
