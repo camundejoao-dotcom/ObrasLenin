@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Material para o Programa do POSDR (1902) - V. I. Lênin</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    :root {
+      --bg-color: #faf9f6;
+      --text-color: #2b2b2b;
+      --accent-color: #8b0000;
+      --reading-width: 720px;
+      --font-serif: "Georgia", "Cambria", serif;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-serif);
+      line-height: 1.8;
+      font-size: 1.1rem;
+      margin: 0;
+      padding: 1.5rem 1rem;
+    }
+
+    main {
+      max-width: var(--reading-width);
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      color: var(--accent-color);
+    }
+
+    .subtitle {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.5rem;
+      color: var(--accent-color);
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      margin-top: 1.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    blockquote {
+      margin: 1.5rem 0;
+      padding: 1rem 1.2rem;
+      border-left: 3px solid var(--accent-color);
+      background-color: rgba(139, 0, 0, 0.03);
+    }
+
+    blockquote p {
+      margin-bottom: 0.75rem;
+      text-align: left;
+    }
+
+    blockquote p:last-child {
+      margin-bottom: 0;
+    }
+
+    .note {
+      font-size: 0.9rem;
+      color: #666;
+      font-family: var(--font-sans);
+      margin-top: -0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    ol, ul {
+      margin-left: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: var(--accent-color);
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 2rem;
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-topo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--accent-color);
+      color: #ffffff !important;
+      text-decoration: none;
+      padding: 0.75rem 1rem;
+      border-radius: 50px;
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+      transition: all 0.3s ease;
+    }
+
+    .btn-topo:hover {
+      background-color: #b22222;
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body id="top">
+
+  <main>
+    <a href="index.html" class="back-link">← Voltar ao Sumário Geral</a>
+
+    <h1>Material para a Preparação do Programa do POSDR (1902)</h1>
+    <p class="subtitle">Documentos preparatórios, projetos, emendas e artigos de V. I. Lênin contidos no Volume 6 das Obras Completas.</p>
+
+    <section>
+      <h2>Sumário desta Seção</h2>
+      <ol style="font-family: var(--font-sans);">
+        <li><a href="#texto-1">1. Material para a Preparação do Programa do POSDR</a></li>
+        <li><a href="#texto-2">2. Notas sobre o Primeiro Projeto de Programa de Plekhânov</a></li>
+        <li><a href="#texto-3">3. Projeto de Programa do POSDR</a></li>
+        <li><a href="#texto-4">4. Três Emendas ao Projeto de Programa</a></li>
+        <li><a href="#texto-5">5. Notas sobre o Segundo Projeto de Programa de Plekhânov</a></li>
+        <li><a href="#texto-6">6. Opinião sobre o Segundo Projeto de Plekhânov</a></li>
+        <li><a href="#texto-7">7. Observações sobre o Projeto de Programa do Comitê</a></li>
+        <li><a href="#texto-8">8. Observações Adicionais sobre o Projeto de Programa do Comitê</a></li>
+        <li><a href="#texto-9">9. Uma Emenda à Seção Agrária do Programa</a></li>
+        <li><a href="#texto-10">10. Sinais de Bancarrota</a></li>
+      </ol>
+    </section>
+
+    <!-- TEXTO 1 -->
+    <article id="texto-1">
+      <h2>1. MATERIAL PARA A PREPARAÇÃO DO PROGRAMA DO POSDR</h2>
+      <p class="note">Escrito em janeiro–abril de 1902. Publicado pela primeira vez em 1924, na Miscelânea Leniniana II. Publicado de acordo com o manuscrito.</p>
+      <p>[Nota editorial: este título abre a série de documentos preparatórios do programa do Partido Operário Social-Democrata Russo (POSDR) reunidos neste volume; não possui texto próprio além do que segue nos textos 2 a 5.]</p>
+      <p><em>Ilustração no original: “Primeira página do manuscrito de Lênin, ‘Projeto de Programa do Partido Operário Social-Democrata Russo’, 1902 (reduzida)”.</em></p>
+    </article>
+
+    <!-- TEXTO 2 -->
+    <article id="texto-2">
+      <h2>2. NOTAS SOBRE O PRIMEIRO PROJETO DE PROGRAMA DE PLEKHÂNOV</h2>
+      <p class="note">Escrito no mais tardar em 8 (21) de janeiro de 1902.</p>
+      <p>O texto a seguir reproduz a estrutura do original: à esquerda (ou, aqui, antes) o texto do projeto de Plekhânov, ponto por ponto; a seguir, as notas e observações que Lênin escreveu à margem.</p>
+
+      <h3>I.</h3>
+      <p><strong>Texto de Plekhanov:</strong> O principal traço econômico da sociedade atual é o predomínio, nela, das relações de produção capitalistas, isto é, a propriedade dos meios de produção e da circulação de mercadorias por uma classe numericamente muito pequena de capitalistas, enquanto a maioria da população é composta de proletários, que não possuem nada além de sua força de trabalho e não podem subsistir a não ser vendendo-a. Em consequência disso, a maioria da população é reduzida à posição dependente de assalariados, cujo trabalho cria a renda dos capitalistas.</p>
+      <p><strong>Notas de Lênin:</strong><br>
+      Página 1. Nº 1 — O capitalismo não é um “traço” da sociedade atual, mas seu sistema ou modo econômico, etc.<br>
+      Nº 2 — Os meios de produção não pertencem só aos capitalistas, mas também aos proprietários de terra e aos pequenos produtores.<br>
+      Nº 3 — O proletariado não é a maioria da população em muitos países.<br>
+      Nº 4 — O proletariado possui certos artigos de consumo (e, em parte, também meios de produção).<br>
+      Página 2. Nº 5 — [falta] dos proprietários de terra.<br>
+      À página 2: não é o progresso técnico, mas a propriedade privada, que expropria e <em>verelendet</em> (empobrece) o pequeno produtor.</p>
+
+      <h3>II.</h3>
+      <p><strong>Texto de Plekhanov:</strong> A esfera de domínio das relações de produção capitalistas se expande constantemente, à medida que o progresso técnico contínuo aumenta a importância econômica das grandes empresas e, com isso, diminui o número de pequenos produtores independentes, reduz seu papel na vida econômica da sociedade e, em certos lugares, os transforma diretamente em vassalos e tributários dos grandes industriais.</p>
+      <p><strong>Notas de Lênin:</strong><br>
+      Nº 6 — “e com isso”?? Por si só, o progresso técnico não pode aumentar a importância econômica das grandes empresas. Em consequência do progresso técnico (mais uma série de mudanças econômicas, como nas condições de mercado etc.), a pequena produção vai sendo suplantada pela grande produção.<br>
+      Nº 6-7. O capitalismo nem sempre “diminui o número de pequenos produtores” (relativamente, e não necessariamente em termos absolutos, sobretudo na Rússia).<br>
+      [O capitalismo expropria e conduz o pequeno produtor à degradação e ao empobrecimento...]<br>
+      Página 2. Nº 7. Reduzir o papel do pequeno = aumentar a importância econômica do grande (é a mesma coisa).<br>
+      Nº 8 — “Diretamente” — suprimir. Não está indicado o processo de separação do produtor em relação aos meios de produção.</p>
+
+      <h3>III.</h3>
+      <p><strong>Texto de Plekhanov:</strong> As relações de produção capitalistas pesam cada vez mais sobre a classe operária, na medida em que o progresso técnico, ao aumentar a produtividade do trabalho, não só torna materialmente possível aos capitalistas intensificar a exploração dos trabalhadores, como converte essa possibilidade em realidade, provocando uma redução relativa na procura de força de trabalho ao mesmo tempo que um aumento relativo e absoluto da sua oferta.</p>
+      <p><strong>Notas de Lênin:</strong><br>
+      Página 3 do projeto original. Nº 9 — [e também] sobre os pequenos produtores [os camponeses em geral deveriam ser mencionados à parte].<br>
+      Nº 10 — dar origem a, ou engendrar.<br>
+      Página 3 — expresso de modo extremamente pouco popular e abstrato. É bem melhor no Programa de Erfurt: “...o exército de trabalhadores excedentes cresce”, “a insegurança da existência aumenta”.</p>
+
+      <h3>IV.</h3>
+      <p><strong>Texto de Plekhanov:</strong> O desenvolvimento da produtividade do trabalho não eleva o preço da força de trabalho; pelo contrário, é muito frequentemente a causa direta da sua redução. Assim, o progresso técnico, que significa um aumento da riqueza social, causa maior desigualdade social na sociedade capitalista, amplia a distância entre os proprietários e os desprovidos de propriedade, e aumenta a dependência econômica dos trabalhadores em relação aos capitalistas.</p>
+      <p><strong>Notas de Lênin:</strong><br>
+      Página 4 — “o preço da força de trabalho” é muito frequentemente reduzido (também expresso de modo muito abstrato; = o crescimento da exploração, da opressão, da pobreza, da degradação). “Assim” causa maior desigualdade. Isso dá a entender que a maior desigualdade é engendrada apenas pelo aumento (intensificação) da exploração do assalariado, quando na verdade ela é engendrada: 1) pela expropriação do pequeno produtor; 2) pelo empobrecimento do pequeno produtor; 3) pelo aumento da exploração; 4) pelo crescimento do exército de reserva.</p>
+
+      <h3>V.</h3>
+      <p><strong>Texto de Plekhanov:</strong> Dado esse estado de coisas na sociedade capitalista, e com a rivalidade mútua constantemente crescente entre os países capitalistas no mercado mundial, a venda das mercadorias necessariamente fica atrás da sua produção, o que provoca periodicamente crises industriais mais ou menos graves, acompanhadas de períodos mais ou menos longos de estagnação industrial, levando a uma redução ainda maior no número e na importância econômica dos pequenos produtores, a uma dependência ainda maior do trabalho assalariado em relação ao capital, e a uma deterioração relativa — e, em certos lugares, até mesmo absoluta — ainda mais rápida das condições do proletariado e dos pequenos produtores.</p>
+      <p><strong>Notas de Lênin:</strong><br>
+      Página 5. É necessário indicar as causas das crises no programa? Se sim, a deficiência é que são indicadas duas causas: 1) a maior desigualdade social (“dado esse estado de coisas”, p. 4); 2) o crescimento da rivalidade.<br>
+      Não está indicada a causa básica das crises = a <em>Planlosigkeit</em> [falta de planejamento], a apropriação privada sob uma produção social.<br>
+      Páginas 5-6: a redução da “importância econômica” dos pequenos produtores é um termo abstrato demais. {Expropria (= reduz o número?) e <em>verelendet</em> [empobrece].}<br>
+      Página 6 — do “trabalho” assalariado? Não seria melhor dizer dos trabalhadores?<br>
+      Página 6 — consequências de uma crise — deterioração relativa e absoluta das condições. Não seria melhor dizer claramente: desemprego, pobreza dos trabalhadores e dos pequenos produtores.</p>
+
+      <h3>VI.</h3>
+      <p><strong>Texto de Plekhanov:</strong> Mas, à medida que essas contradições inevitáveis do capitalismo crescem e se desenvolvem, cresce também o descontentamento da classe operária com a ordem de coisas existente, sua luta contra a classe capitalista se torna mais aguda, e em seu seio se difunde cada vez mais ampla e rapidamente a consciência de que o jugo da dependência econômica que pesa sobre seus ombros só pode ser derrubado por seus próprios esforços, e que, para derrubar esse jugo, é necessária uma revolução social, isto é, a destruição das relações de produção capitalistas e a transformação dos meios de produção e de circulação dos produtos em propriedade pública.</p>
+      <p><strong>Notas de Lênin:</strong><br>
+      Página 7 — em vez de descontentamento — indignação.<br>
+      Página 7 — a difusão de uma consciência é colocada no mesmo plano do crescimento da indignação e do agravamento da luta. Mas a indignação e a luta são espontâneas, ao passo que a consciência deve ser introduzida por nós.<br>
+      Página 7 — “apenas por seus próprios esforços”. Isso deveria ser expresso de modo mais geral: só pode ser o ato da classe operária etc.<br>
+      Páginas 7-8. 1) destruição das relações de produção capitalistas? — a produção socialista tomando o lugar da produção mercantil; 2) a expropriação dos exploradores « a transformação da propriedade privada em propriedade pública; 3) a transformação dos meios de produção em propriedade pública »</p>
+
+      <h3>VII.</h3>
+      <p><strong>Texto de Plekhanov:</strong> Essa revolução do proletariado emancipará toda a humanidade, hoje oprimida e sofredora, pois porá fim a todas as formas de opressão e exploração do homem pelo homem.</p>
+      <p><strong>Notas de Lênin:</strong> (sem observações)</p>
+
+      <h3>VIII.</h3>
+      <p><strong>Texto de Plekhanov:</strong> Para substituir a produção mercantil capitalista pela organização socialista da produção de artigos destinados a satisfazer as necessidades da sociedade e assegurar o bem-estar de todos os seus membros, a fim de realizar sua revolução, o proletariado deve deter o poder político, o que o tornará senhor da situação e lhe permitirá destruir sem piedade todos os obstáculos que encontrar no caminho para seu grande objetivo. Nesse sentido, a ditadura do proletariado é uma condição política essencial da revolução social.</p>
+      <p><strong>Notas de Lênin:</strong><br>
+      Página 9 — pouco claro: “satisfazer as necessidades da sociedade e assegurar o bem-estar de todos os seus membros.” Isso é insuficiente: (cf. o Programa de Erfurt: “o maior bem-estar e o aperfeiçoamento harmonioso e multifacetado”).<br>
+      Página 9. “Senhor da situação”, “destruir sem piedade”, “ditadura”??? (A revolução social já nos basta.)</p>
+
+      <h3>IX.</h3>
+      <p><strong>Texto de Plekhanov:</strong> Mas o desenvolvimento do intercâmbio internacional e do mercado mundial establishedu laços tão estreitos entre todas as nações do mundo civilizado que esse grande objetivo só pode ser alcançado pelos esforços unidos dos proletários de todos os países. Daí que o atual movimento operário teve de se tornar, e há muito se tornou, um movimento internacional.</p>
+      <p><strong>Notas de Lênin:</strong> Página 10 — nada.</p>
+
+      <h3>X.</h3>
+      <p><strong>Texto de Plekhanov:</strong> A social-democracia russa se considera um dos destacamentos do exército mundial do proletariado, parte da social-democracia internacional.</p>
+      <p><strong>Notas de Lênin:</strong> (sem observações)</p>
+
+      <h3>XI.</h3>
+      <p><strong>Texto de Plekhanov:</strong> Ela persegue o mesmo objetivo final que os social-democratas de todos os outros países se propõem. Ela revela aos trabalhadores o antagonismo irreconciliável entre seus interesses e os dos capitalistas, explica-lhes o significado histórico, a natureza e os pressupostos da revolução social que o proletariado deve realizar, e organiza suas forças para uma luta incessante contra seus exploradores.</p>
+      <p><strong>Notas de Lênin:</strong><br>
+      Página 11 — “o mesmo Endziel [objetivo final]”. Por que a repetição?<br>
+      Página 11 — “o mesmo Endziel” — e logo ao lado, a tarefa do Partido Social-Democrata:<br>
+      1) Revelar (?) aos trabalhadores o antagonismo irreconciliável entre seus interesses e os dos capitalistas.<br>
+      2) Explicar-lhes o significado, a natureza e os pressupostos da revolução social [a necessidade da revolução?]. Os alemães expressam isso de modo mais forte: <em>weisen naturnotwendiges Ziel</em> [indicam o objetivo naturally necessário].<br>
+      3) Organizar suas forças para uma luta incessante contra seus exploradores (N.B.? contra o governo?) dirigir a luta do proletariado.<br>
+      O ponto 1) está incluído no 2). O ponto 1) é limitado demais. Deveria ser: α indicar o objetivo final, β criar uma organização de revolucionários para dirigir a luta do proletariado.</p>
+
+      <h3>XII.</h3>
+      <p><strong>Texto de Plekhanov:</strong> Mas seus objetivos imediatos são consideravelmente modificados pelo fato de que, em nosso país, numerosos resíduos do antigo regime pré-capitalista — servil — constituem um fardo opressivo sobre toda a população trabalhadora e são o mais difícil de todos os obstáculos que dificultam o progresso do movimento operário russo. Os social-democratas russos ainda têm de lutar pelo estabelecimento das instituições jurídicas que, constituindo um complemento legal natural das relações de produção capitalistas, já existem nos países capitalistas avançados e são necessárias para o desenvolvimento pleno e completo da luta de classes do trabalho assalariado contra o capital. E uma vez que a autocracia tsarista, o mais destacado resíduo do antigo regime servil e o mais nocivo ao desenvolvimento social ulterior, é totalmente incompatível com essas instituições jurídicas, e uma vez que, por sua própria natureza, ela não pode deixar de ser o inimigo mais encarniçado e perigoso do movimento de emancipação proletária, os social-democratas russos colocam como sua tarefa política imediata a derrubada da monarquia.</p>
+      <p><strong>Notas de Lênin:</strong><br>
+      Página 12. “Resíduos do regime servil... são um fardo opressivo sobre toda a população trabalhadora” (o retardamento do desenvolvimento das forces produtivas; a deterioração das condições de vida; manter todo o povo num estado de ignorância e sujeição) — o obstáculo mais difícil (= resíduos)? (Que resíduos são esses? A autocracia e tudo o mais? Isso é dito mais adiante.)<br>
+      12-13: é necessário lutar pelo estabelecimento dessas (?) instituições jurídicas que já (?) existem nos países avançados. [Deveriam ser nomeadas de modo mais concreto. Pouco popular.]<br>
+      Página 13 — do trabalho assalariado? — dos trabalhadores, da luta da classe operária contra a classe capitalista por sua completa emancipação.<br>
+      Página 13. A autocracia é incompatível com essas instituições jurídicas (com a liberdade política??).<br>
+      Página 14. Já que a autocracia é incompatível — a derrubada da monarquia ((inconsistente)).</p>
+    </article>
+
+    <!-- TEXTO 3 -->
+    <article id="texto-3">
+      <h2>3. PROJETO DE PROGRAMA DO PARTIDO OPERÁRIO SOCIAL-DEMOCRATA RUSSO</h2>
+      <p class="note">Escrito no final de janeiro–início de fevereiro de 1902.</p>
+      <p><em>* A parte teórica deste programa constitui o projeto proposto por um dos editores, Frey (elaborado por ele com base no projeto original de G. V. Plekhânov). A parte prática do programa (do ponto indicado abaixo até o fim) é proposta pelo comitê como um todo, isto é, pelos cinco editores.</em></p>
+
+      <h3>[A]</h3>
+      <p>I. A produção mercantil se desenvolve cada vez mais rapidamente na Rússia, tornando-se nela cada vez mais dominante o modo de produção capitalista.</p>
+      <p>II. Como resultado do progresso técnico contínuo, a pequena produção vem sendo suplantada, em grau cada vez maior, pela grande produção. A parte mais importante dos meios de produção (a terra e as fábricas, as ferramentas e máquinas, as ferrovias e outros meios de comunicação) vai se concentrando nas mãos de um número relativamente insignificante de capitalistas e grandes proprietários de terra, como propriedade privada deles. Os pequenos produtores independentes (camponeses, artesãos e artífices) são arruinados em números crescentes, perdendo seus meios de produção e assim se transformando em proletários, ou então se tornando servos e tributários do capital. Números crescentes de trabalhadores são obrigados a vender sua força de trabalho e a se tornar assalariados, dependentes dos proprietários e que, por seu trabalho, criam a riqueza destes últimos.</p>
+      <p>III. Quanto maior o grau de progresso técnico, mais o crescimento da procura por força de trabalho fica atrás do crescimento de sua oferta, e maiores são as oportunidades dos capitalistas para intensificar a exploração dos trabalhadores. A insegurança da existência e o desemprego, o jugo da exploração e a humilhação de todo tipo tornam-se o destino de setores cada vez mais amplos da população trabalhadora.</p>
+      <p>IV. Esse processo é ainda mais agravado pelas crises industriais, que são o resultado inevitável das contradições básicas do capitalismo. A pobreza e a miséria das massas existem lado a lado com o desperdício da riqueza social, em consequência da impossibilidade de encontrar mercados para as mercadorias produzidas.</p>
+      <p>V. Assim, o gigantesco desenvolvimento das forças produtivas do trabalho social, que se torna constantemente mais socializado, é acompanhado pela monopolização, por uma ínfima minoria da população, de todas as principais vantagens desse desenvolvimento. O crescimento da riqueza social avança lado a lado com o crescimento da desigualdade social; o abismo entre a classe dos proprietários (a burguesia) e a classe do proletariado aumenta.</p>
+
+      <h3>[B]</h3>
+      <p>VI. Mas, à medida que todas essas contradições inevitáveis do capitalismo crescem e se desenvolvem, também crescem o número e a solidariedade dos proletários, seu descontentamento e sua indignação; a luta entre a classe operária e a classe capitalista se torna mais aguda, e cresce o ímpeto de derrubar o jugo intolerável do capitalismo.</p>
+      <p>VII. A emancipação dos trabalhadores deve ser obra da própria classe operária. Todas as demais classes da sociedade atual defendem a preservação dos fundamentos do sistema econômico existente. A verdadeira emancipação da classe operária exige uma revolução social — que está sendo preparada por todo o desenvolvimento do capitalismo —, isto é, a abolição da propriedade privada dos meios de produção, sua transformação em propriedade pública, e a substituição da produção mercantil capitalista pela organização socialista da produção de artigos pela sociedade como um todo, com o objetivo de assegurar o pleno bem-estar e o livre desenvolvimento multifacetado de todos os seus membros.</p>
+      <p>VIII. Essa revolução proletária abolirá completamente a divisão da sociedade em classes e, consequentemente, toda a desigualdade social e política dela decorrente.</p>
+      <p>IX. Para realizar essa revolução social, o proletariado deve conquistar o poder político, o que o tornará senhor da situação e lhe permitirá remover todos os obstáculos no caminho para seu grande objetivo. Nesse sentido, a ditadura do proletariado é uma condição política essencial da revolução social.</p>
+      <p>X. A social-democracia russa assume a tarefa de revelar aos trabalhadores o antagonismo irreconciliável entre seus interesses e os dos capitalistas, de explicar ao proletariado o significado histórico, a natureza e os pressupostos da revolução social que ele terá de realizar, e de organizar um partido de classe revolucionário capaz de dirigir a luta do proletariado em todas as suas formas.</p>
+      <p>XI. Mas o desenvolvimento do intercâmbio internacional e da produção para o mercado mundial establishedu laços tão estreitos entre todas as nações do mundo civilizado que o atual movimento operário teve de se tornar, e há muito se tornou, um movimento internacional. É por isso que a social-democracia russa se considera um dos destacamentos do exército mundial do proletariado, parte da social-democracia internacional.</p>
+      <p>XII. Os objetivos imediatos da social-democracia russa são, contudo, consideravelmente modificados pelo fato de que, em nosso país, numerosos resíduos do sistema social pré-capitalista, servil, retardam ao mais alto grau o desenvolvimento das forças produtivas, tornam impossível o desenvolvimento pleno e multifacetado da luta de classes do proletariado, e rebaixam o padrão de vida da população trabalhadora; eles são responsáveis pela forma asiaticamente bárbara com que o campesinato, forte em milhões, está perecendo, e mantêm todo o povo num estado de ignorância e sujeição, negando-lhe todos os direitos.</p>
+      <p>XIII. A autocracia tsarista é o mais destacado desses resíduos do regime servil e o mais formidável baluarte de toda essa barbárie. Ela é o inimigo mais encarniçado e mais perigoso do movimento de emancipação proletária e do desenvolvimento cultural de todo o povo.</p>
+
+      <h3>[C]</h3>
+      <p>Por essas razões, o Partido Operário Social-Democrata Russo coloca como sua tarefa política imediata a derrubada da autocracia tsarista e sua substituição por uma república baseada numa constituição democrática que assegure:</p>
+      <ol>
+        <li>a soberania do povo, isto é, a concentração do poder supremo do Estado nas mãos de uma assembleia legislativa composta de representantes do povo;</li>
+        <li>sufrágio universal, igual e direto, tanto nas eleições para a assembleia legislativa quanto nas eleições para todos os órgãos locais de autogoverno, para todo cidadão que tenha completado vinte e um anos; voto secreto em todas as eleições; o direito de todo eleitor de ser eleito para qualquer uma das assembleias representativas; remuneração para os representantes do povo;</li>
+        <li>inviolabilidade da pessoa e do domicílio dos cidadãos;</li>
+        <li>liberdade irrestrita de consciência, de expressão, de imprensa e de reunião, o direito de greve e de organizar sindicatos;</li>
+        <li>liberdade de circulação e de ocupação;</li>
+        <li>abolição dos estamentos sociais; plena igualdade para todos os cidadãos, independentemente de sexo, religião ou raça;</li>
+        <li>reconhecimento do direito à autodeterminação de todas as nações que fazem parte do Estado;</li>
+        <li>o direito de todo cidadão de processar qualquer funcionário público, sem necessidade de reclamação prévia aos seus superiores;</li>
+        <li>armamento geral do povo em vez da manutenção de um exército permanente;</li>
+        <li>separação da igreja em relação ao Estado e da escola em relação à igreja;</li>
+        <li>educação universal, gratuita e obrigatória até os dezesseis anos de idade; fornecimento estatal de alimentação, vestuário e material escolar às crianças necessitadas.</li>
+      </ol>
+
+      <h3>[D]</h3>
+      <p>Para proteger a classe operária e elevar sua capacidade de luta, o Partido Operário Social-Democrata Russo exige:</p>
+      <ol>
+        <li>que a jornada de trabalho seja limitada a oito horas para todos os assalariados;</li>
+        <li>que se estabeleça por lei um período de descanso semanal de não menos de trinta e seis horas consecutivas para os assalariados de ambos os sexos empregados em todos os ramos da economia nacional;</li>
+        <li>que todo trabalho extraordinário (horas extras) seja proibido;</li>
+        <li>que o trabalho noturno (das 21h às 5h) seja proibido em todos os ramos da economia nacional, com exceção daqueles ramos em que seja essencial por razões técnicas;</li>
+        <li>que se proíba aos empregadores contratar crianças menores de quinze anos;</li>
+        <li>que se proíba o trabalho feminino nas indústrias especificamente prejudiciais à saúde das mulheres;</li>
+        <li>que a lei estabeleça a responsabilidade civil dos empregadores pela invalidez total ou parcial dos trabalhadores causada por acidentes ou por condições de trabalho nocivas; que não se exija do trabalhador provar a responsabilidade do empregador pela invalidez;</li>
+        <li>que se proíba o pagamento de salários em espécie;</li>
+        <li>que se paguem pensões estatais aos trabalhadores idosos que se tornarem incapacitados;</li>
+        <li>que se aumente o número de inspetores de fábricas; que se nomeiem inspetoras mulheres nas indústrias em que predomine o trabalho feminino; que a observância das leis fabris seja supervisionada por representantes eleitos pelos trabalhadores e pagos pelo Estado; que as taxas por peça e a rejeição de trabalho também sejam supervisionadas por representantes eleitos dos trabalhadores;</li>
+        <li>que os órgãos de autogoverno local, em cooperação com representantes eleitos dos trabalhadores, supervisionem as condições sanitárias das moradias fornecidas aos trabalhadores pelos empregadores, e também zelem pela observância das regras que vigoram nessas moradias e pelos termos de sua locação, com o objetivo de proteger os assalariados da interferência dos empregadores em sua vida e atividades como pessoas privadas e cidadãos;</li>
+        <li>que se institua um sistema de inspeção sanitária devidamente organizado e abrangente, para supervisionar as condições de trabalho em todos os estabelecimentos que empreguem trabalho assalariado;</li>
+        <li>que a atividade da Inspetoria de Fábricas se estenda às indústrias artesanais, domésticas e de ofícios manuais, e às empresas estatais;</li>
+        <li>que toda violação das leis de proteção ao trabalho seja punível por lei;</li>
+        <li>que se proíba aos empregadores fazer quaisquer descontos nos salários, sob qualquer motivo ou para qualquer finalidade (multas, rejeições de trabalho, etc.);</li>
+        <li>que se instituam tribunais de fábrica em todos os ramos da economia nacional, com representação igual de trabalhadores e empregadores.</li>
+      </ol>
+
+      <h3>[E]</h3>
+      <p>Além disso, com o objetivo de democratizar a economia estatal da Rússia, o Partido Operário Social-Democrata Russo exige a abolição de todos os impostos indiretos e a introdução do imposto de renda progressivo.</p>
+      <p>Com vistas a erradicar os resíduos do antigo regime servil, o Partido lutará por:</p>
+      <ol>
+        <li>abolição do resgate de terras e dos pagamentos de foro, bem como de todos os serviços atualmente impostos ao campesinato como estamento social tributável;</li>
+        <li>anulação da responsabilidade coletiva e de todas as leis que restringem o camponês na livre disposição de sua terra;</li>
+        <li>restituição ao povo de todas as somas dele retiradas sob a forma de resgate de terras e pagamentos de foro; confisco, para esse fim, dos bens dos mosteiros e dos domínios reais, e imposição de um imposto especial sobre a terra aos membros da grande nobreza fundiária que receberam empréstimos para o resgate de terras, cuja receita assim obtida seria destinada a um fundo público especial para as necessidades culturais e assistenciais das comunas rurais;</li>
+        <li>criação de comitês camponeses:
+          <br>a) para a restituição às comunas rurais (por expropriação ou, quando a terra tiver mudado de mãos, por resgate etc.) das terras retiradas dos camponeses quando da abolição da servidão e hoje usadas pelos latifundiários como meio de manter os camponeses em sujeição;
+          <br>b) para a erradicação dos resíduos do regime servil que ainda subsistem nos Urais, no Altai, no Território Ocidental e em outras regiões do país;</li>
+        <li>atribuição aos tribunais do poder de reduzir aluguéis exorbitantes e declarar nulos todos os contratos que impliquem sujeição.</li>
+      </ol>
+
+      <h3>[F]</h3>
+      <p>Ao lutar pela realização de seus objetivos políticos e econômicos imediatos, o Partido Operário Social-Democrata Russo apoia todo movimento de oposição e revolucionário directed contra a ordem social e política existente na Rússia, mas rejeita enfaticamente todos os planos reformistas que apresentam toda extensão da tutela policial sobre as massas trabalhadoras como um passo em direção à solução do problema social.</p>
+      <p>Por sua parte, o Partido Operário Social-Democrata Russo está firmemente convencido de que a implementação completa, consistente e duradoura das mudanças políticas e sociais indicadas só pode ser alcançada mediante a derrubada da autocracia e a convocação de uma Assembleia Constituinte, livremente eleita por todo o povo.</p>
+    </article>
+
+    <!-- TEXTO 4 -->
+    <article id="texto-4">
+      <h2>4. TRÊS EMENDAS AO PROJETO DE PROGRAMA</h2>
+      <p class="note">Escrito na segunda metade de fevereiro de 1902.</p>
+      <p><strong>Nº 1.</strong> No parágrafo (A) II, em vez de: “Como resultado do progresso técnico contínuo, a pequena produção vem sendo suplantada, em grau cada vez maior, pela grande produção”, inserir o seguinte:</p>
+      <p>“O progresso técnico avança constantemente, a grande produção se desenvolve em grau cada vez maior, a pequena produção vai sendo suplantada cada vez mais ou entra em declínio.”</p>
+      <p><strong>Nº 2.</strong> No parágrafo (B) VII, depois de: “Todas as demais classes da sociedade atual defendem a preservação dos fundamentos do sistema econômico existente”, inserir:</p>
+      <p>“— e o pequeno produtor, que é arruinado sob o jugo do capitalismo, só se torna verdadeiramente revolucionário na medida em que percebe a falta de esperança de sua posição e se coloca no ponto de vista do proletariado —” — e, a partir daí, iniciar um novo parágrafo.</p>
+      <p><strong>Nº 3.</strong> No parágrafo (B) XII, em vez de: “são responsáveis pela forma asiaticamente bárbara com que o campesinato, forte em milhões, está perecendo”, inserir:</p>
+      <p>“são responsáveis pelas formas asiaticamente bárbaras de exploração e pela extinção agonizante do campesinato, forte em milhões.”</p>
+    </article>
+
+    <!-- TEXTO 5 -->
+    <article id="texto-5">
+      <h2>5. NOTAS SOBRE O SEGUNDO PROJETO DE PROGRAMA DE PLEKHÂNOV</h2>
+      <p class="note">Escrito no final de fevereiro–início de março de 1902.</p>
+      <p>O caráter geral do programa é, em minha opinião, o defeito mais geral e básico deste projeto, um defeito que o torna inaceitável. Especificamente, não se trata do programa de um partido engajado numa luta prática, mas de uma <em>Prinzipienerklärung</em> [declaração de princípios]; é antes um programa para estudantes (sobretudo em sua seção mais importante, dedicada a uma definição do capitalismo), e mais ainda para calouros, que conhecem o capitalismo em geral, mas ainda não o capitalismo russo. Esse defeito básico dá origem também a uma grande quantidade de repetições, e o programa tende a se transformar num comentário. Procurarei demonstrar isso analisando o projeto ponto por ponto, e depois tirarei as conclusões gerais.</p>
+
+      <p>“O desenvolvimento do intercâmbio internacional”, etc., até as palavras “há muito se tornou um movimento internacional” (§ I — para facilitar a citação, numerarei cada parágrafo em ordem consecutiva).</p>
+      <p>Em essência, não há nada aqui a que se possa objetar. Somente as palavras “o grande movimento emancipador de nossos tempos” são supérfluas, pois o caráter emancipador do movimento operário é tratado mais adiante, de modo extenso e concreto.</p>
+      <p>Além disso, em minha opinião, este parágrafo não está em seu devido lugar. O programa do Partido Social-Democrata Russo deveria começar por uma definição (e uma denúncia) do capitalismo russo — e só depois enfatizar o caráter internacional do movimento, que, em sua forma — para usar as palavras do Manifesto Comunista —, é necessariamente, a princípio, uma luta nacional.</p>
+
+      <p>§ II. “Tal como os social-democratas de todos os outros países, os social-democratas russos assumem uma posição internacional. Consideram seu Partido um dos destacamentos do exército mundial do proletariado, parte da social-democracia internacional.”</p>
+      <p>As palavras que sublinhei são supérfluas, pois nada acrescentam ao que já foi dito antes e depois. Essas palavras supérfluas apenas enfraquecem a expressão, já plenamente adequada e gráfica, contida nas palavras “destacamento” e “parte”.</p>
+
+      <p>§ III. “Perseguem o mesmo objetivo final que os social-democratas de todos os outros países.”</p>
+      <p>Também são palavras supérfluas, repetidas duas vezes mais adiante, nos §§ XIII (“o objetivo final de todos os esforços da social-democracia internacional” etc.) e XVII (“a identidade do objetivo final comum”). Um “destacamento” de um exército é um destacamento precisamente porque persegue o mesmo objetivo.</p>
+
+      <p>§ IV. “Esse objetivo final, comum aos social-democratas de todos os países” (novamente uma repetição supérflua), “é determinado pela natureza e pelo curso de desenvolvimento da sociedade burguesa.”</p>
+      <p>Também são palavras supérfluas, precisely porque mais adiante se mostra como a natureza e o curso de desenvolvimento da sociedade burguesa “determinam” esse objetivo final. Este parágrafo é algo como um título ou cabeçalho de seção. Mas títulos, que são necessários em manuais ou artigos, são totalmente desnecessários num programa. <em>Alles, was im Programm überflüssig, schwächt es</em> (Engels, em suas notas sobre o projeto do Programa de Erfurt).</p>
+
+      <p>Os §§ V e VI (assim como o início do VII) suscitam, além de observações formais, uma objeção geral e fundamental a todo o caráter do programa tal como delineado no projeto.</p>
+      <p>Exporei primeiro essa objeção geral (para o que será necessário, em parte, defender o contraprojeto), e depois passarei às observações formais.</p>
+      <p>O § V dá uma definição acadêmica do capitalismo “desenvolvido” em geral; o § VI fala da “expansão” das relações de produção capitalistas, junto com o progresso técnico e o crescimento das grandes empresas em detrimento das pequenas (ou às custas destas), isto é, à medida que a pequena produção é suplantada pela grande produção.</p>
+      <p>Esse método de exposição é ilógico e incorreto.</p>
+      <p>É incorreto porque o proletariado combatente aprende o que é o capitalismo não a partir de definições acadêmicas (como se aprende em manuais), mas a partir do conhecimento prático das contradições do capitalismo, do desenvolvimento da sociedade e de suas consequências. E em nosso programa devemos definir esse desenvolvimento, e afirmar — da maneira mais breve e gráfica possível — que as coisas estão se desenvolvendo de determinada maneira. Devemos deixar para os comentários todas as explicações sobre por que as coisas se desenvolvem exatamente dessa e não de outra maneira, e todos os detalhes das formas em que as tendências básicas se expressam. Quanto ao que é o capitalismo — isso decorrerá por si mesmo de nossa definição de exatamente como as coisas estão (resp. se desenvolvendo).</p>
+      <p>É ilógico porque o processo de suplantação da pequena produção pela grande (§ VI) e o da divisão da sociedade em proprietários e proletários (§ V) são um único e mesmo processo. E isso não é expresso pela formulação dada no projeto. Segundo o projeto, temos o seguinte: primeira proposição — o capitalismo desenvolvido consiste numa parte considerável da pequena produção independente tendo sido suplantada pela grande produção que emprega trabalhadores assalariados; segunda proposição — o domínio do capitalismo se expande na medida em que a grande produção suplanta a pequena...</p>
+      <p>Em minha opinião, esses dois parágrafos deveriam ser combinados num só, pela razão indicada, e o processo deveria ser expresso assim: progresso técnico — suplantação da pequena produção pela grande — concentração dos meios de produção nas mãos dos capitalistas e dos proprietários de terra — a ruína dos pequenos produtores independentes: sua transformação em proletários ou em dependentes do capital.</p>
+
+      <h3>Objeções ao contraprojeto e respostas</h3>
+      <p>Levantam-se as seguintes objeções a essa formulação (que o contraprojeto tentou apresentar):</p>
+      <p>(1) Alega-se que a ruína do campesinato russo (resp. a formação da grande propriedade fundiária na Rússia etc.) dependeria unicamente do crescimento do capitalismo.</p>
+      <p>Essa objeção é, a meu ver, infundada. Diz-se com bastante clareza, no lugar apropriado (a saber, ao final do programa), que existem em nosso país inúmeros resíduos do regime servil, e que esses resíduos “barbarizam” o processo de desenvolvimento. Mas, uma vez que consideramos o processo de desenvolvimento do capitalismo o processo básico da evolução social e econômica da Rússia, devemos começar precisamente descrevendo esse processo, bem como suas contradições e consequências. Só assim podemos dar expressão gráfica à nossa ideia de que o processo de desenvolvimento do capitalismo, a suplantação da pequena produção, a concentração da propriedade etc., está em curso e continuará, apesar de todos os resíduos do regime servil, e através de todos esses resíduos.</p>
+
+      <p>(2) Diz-se que a proposição “a pequena produção vem sendo suplantada em grau cada vez maior pela grande produção” é “categórica demais”, “estereotipada” etc.</p>
+      <p>Devo, portanto, explicar as razões que me levam a considerar essa formulação não menos correta, e muito mais adequada, do que a formulação dada no projeto em discussão: “um aumento da importância econômica das grandes empresas, uma diminuição do número relativo das pequenas empresas, uma redução de seu papel na vida social e econômica do país.”</p>
+      <p>Do ponto de vista puramente teórico, ambas as formulações são absolutamente idênticas em significado, e todas as tentativas de estabelecer uma diferença substancial entre elas são inteiramente arbitrárias. “Um aumento da importância das grandes e a redução do papel das pequenas” equivale a suplantação. A suplantação não pode consistir em outra coisa. A complexidade e a confusão na questão da suplantação da pequena produção pela grande não dependem, de forma alguma, de alguém ser incapaz (de boa-fé) de compreender que suplantação significa “um aumento da importância das grandes e uma redução do papel das pequenas” — dependem inteira e exclusivamente da dificuldade de se chegar a um acordo sobre a escolha dos índices e sintomas dessa suplantação, resp. desse aumento da importância de uma e dessa redução do papel da outra.</p>
+
+      <p>Em sua forma mais geral, o processo de desenvolvimento do capitalismo, nesse aspecto, pode ser expresso da seguinte maneira:</p>
+      <p>Período inicial: Produção total = 100. Grande produção = a. Pequena produção = 100 − a.<br>
+      Período subsequente: Produção total = 200. Grande produção = 2a + b. Pequena produção = 200 − 2a − b.</p>
+      <p>Pode-se afirmar com segurança que todo e qualquer dado sobre a relação proporcional entre a grande e a pequena produção se encaixará nessa fórmula. Ninguém que se disponha a compreender o processo pode duvidar de que se trata, de fato, de suplantação. Se 200 − 2a − b será maior em tamanho do que 100 − a (suplantação relativa) ou menor (suplantação absoluta) — em todo caso, é suplantação. Só um “crítico” que não deseje compreender isso será “incapaz de compreender” — e essas pessoas são muito difíceis de agradar. Além disso, o comentário dará a essas pessoas a resposta adequada.</p>
+      <p>A dificuldade da questão não está, de modo algum, em compreender que a modificação indicada equivale a “suplantação”, mas na definição exata das grandezas 100, a etc. Trata-se de uma questão concreta, uma questão de fato, e a formulação “um aumento da importância e uma redução do papel” não nos aproxima um fio de cabelo sequer de sua solução.</p>
+
+      <p>Por exemplo, na esmagadora maioria dos casos, todas as estatísticas industriais europeias determinam essa “importância” e esse “papel” pelo número de trabalhadores (e as estatísticas agrárias, pela quantidade de terra). E ninguém jamais ousou duvidar de que uma diminuição do número proporcional de trabalhadores (resp. da quantidade de terra) significa precisamente suplantação. O problema, porém, é que muitas vezes tais índices — como o número de trabalhadores (resp. a quantidade de terra) — são insuficientes. As pequenas empresas podem estar sendo suplantadas, enquanto o número de trabalhadores nelas (a quantidade de terra) aumenta — se, por exemplo, esses trabalhadores estiverem manuseando materiais alheios, ou se essa terra for cultivada com animais de tração inferiores, ou por trabalhadores em condições inferiores, ou for cultivada e adubada de modo pior, e assim por diante. É de conhecimento geral que os argumentos “críticos” contra o “dogma marxista” estão repletos justamente desses “mal-entendidos”, e esses “mal-entendidos” não são eliminados nem um pouco ao se dizer “um aumento da importância e uma redução do papel” em vez de “suplantação”, já que é “geralmente aceito” que a “importância” e o “papel” se expressam de modo bem simples pelo número de trabalhadores e pela quantidade de terra.</p>
+
+      <p>Ninguém duvidará de que processos como a diferenciação do campesinato, o uso crescente de maquinário sobretudo pelos grandes proprietários, a melhoria do plantel de animais de tração usados pelos grandes proprietários e a deterioração daquele usado pelos pequenos proprietários (a substituição de cavalos por vacas etc.), a crescente “exigência” imposta ao trabalhador assalariado nas grandes empresas e a jornada de trabalho mais longa ali, resp. o consumo cada vez menor do pequeno camponês, o melhor cultivo e adubação da terra do grande proprietário, e o pior cultivo e adubação da terra do pequeno proprietário, a vantagem do grande proprietário sobre este último no campo do crédito e da associação, e assim por diante — tudo isso é precisamente uma suplantação da pequena produção pela grande (na agricultura). Não é nada difícil (nem mesmo necessário) provar que todos esses processos equivalem a “suplantação” — o difícil é provar que é precisamente a esses processos que se deve prestar atenção, que esses processos estão de fato ocorrendo. Essa dificuldade não é facilitada em nada pelas palavras “um aumento da importância e uma redução do papel”; ela só pode ser facilitada por um comentário, por exemplos de como as pessoas são incapazes de definir (não querem definir) a verdadeira expressão do processo de suplantação (= um aumento da importância e uma redução do papel).</p>
+
+      <p>É pura ilusão imaginar que as palavras “um aumento da importância e uma redução do papel” são mais profundas, mais significativas e mais amplas do que a palavra “estreita” e “estereotipada” “suplantação”. Essas palavras em nada contribuem para uma compreensão mais profunda do processo — apenas o expressam de modo mais nebuloso e mais vago. E a razão pela qual contesto essas palavras com tanto vigor não é porque sejam teoricamente incorretas, mas justamente porque conferem uma aparência de profundidade a uma pura obscuridade.</p>
+
+      <p>Uma pessoa que “passou por um seminário” e nada mais, e que sabe que uma diminuição proporcional (não necessariamente uma diminuição absoluta) equivale a suplantação, verá nessa obscuridade um desejo de encobrir a nudez do “dogma marxista”, comprometido pelos críticos. Uma pessoa que não passou por um seminário apenas suspirará diante de tamanha “sabedoria insondável” — ao passo que a palavra “suplantação” fará lembrar a todo trabalhador e a todo camponês dezenas e centenas de casos que lhes são familiares. Não há mal nenhum se ele não apreender de imediato todo o alcance dessa expressão: <em>selbst wenn einmal ein Fremdwort oder ein nicht auf den ersten Blick in seiner ganzen Tragweite zu erfassender Satz vorkommt, schadet das nichts. Der mündliche Vortrag in den Versammlungen, die schriftliche Erklärung in der Presse tut da alles Nötige, und der kurze, prägnante Satz befestigt sich dann, einmal verstanden, im Gedächtniss, wird Schlagwort, und das passiert der breiteren Auseinandersetzung nie.</em> (Engels, em sua crítica ao projeto de Erfurt.)</p>
+
+      <p>Do ponto de vista do estilo, também, as palavras “um aumento da importância e uma redução do papel”, em vez de “suplantação”, são indesejáveis. Essa não é a linguagem de um partido revolucionário, mas a linguagem do <em>Russkiye Vedomosti</em> [jornal liberal russo]. Não é a terminologia da propaganda socialista, mas a de um resumo estatístico. Essas palavras parecem, por assim dizer, deliberadamente escolhidas com o propósito de dar ao leitor a impression de que o processo descrito é um processo brando, que não culmina em nada definido, um processo indolor. Como na realidade ocorre o contrário, essas palavras estão, nessa medida, totalmente erradas. Não podemos, nem devemos, escolher as formulações mais abstratas, pois o que estamos escrevendo não é um artigo dirigido contra os críticos, mas o programa de um partido combatente, que se dirige às massas de artesãos e camponeses. Nesse apelo, devemos dizer <em>klipp und klar</em> [clara e distinctly] que o capital “os transforma em servos e tributários”, “os arruína” e os “suplanta”, empurrando-os para as fileiras do proletariado. Essa é a única formulação que expressaria verdadeiramente o que todo artesão e todo camponês conhecem por milhares de casos. E só essa formulação sugerirá inevitavelmente a conclusão: sua única salvação está em se juntar ao partido do proletariado.</p>
+
+      <h3>Observações formais sobre os §§ V, VI, VII e VIII</h3>
+      <p>Passando às observações formais contra o § V e o § VI, notarei o seguinte.</p>
+      <p>O § V fala da sociedade burguesa “em sua forma desenvolvida” e, ao mesmo tempo, afirma que tanto uma “parte dos artesãos” quanto “o pequeno campesinato” sobreviveram nessa sociedade. O que se segue é uma imprecisão. Se entendermos as palavras “forma desenvolvida” num sentido estritamente teórico, então não haverá, nessa sociedade, nem artesãos nem pequenos camponeses. E mesmo que tomemos essas palavras em seu sentido usual, para designar os países mais desenvolvidos — mesmo assim veremos que, na Grã-Bretanha, por exemplo, “o pequeno campesinato”, como setor distinto da sociedade, praticamente deixou de existir.</p>
+
+      <p>“O domínio da produção mercantil com base em relações de produção capitalistas.” Isso é um tanto incongruente. Certamente, a produção mercantil plenamente desenvolvida só é possível na sociedade capitalista, mas a “produção mercantil” em geral é, tanto lógica quanto historicamente, <em>prius</em> em relação ao capitalismo.</p>
+
+      <p>O termo “relações de produção capitalistas” não é usado de modo consistente no projeto. É, por vezes, substituído pelo termo “o modo de produção capitalista” (§ XI). Para diminuir a dificuldade de compreensão do programa, um único termo deveria, a meu ver, ser usado ao longo de todo o texto — a saber, este último, já que o primeiro é mais teórico e, sem o acréscimo da palavra “sistema” etc. (de relações), não indica nada completo ou integral.</p>
+
+      <p>“O período feudal-artesanal...” Aqui parece ter sido escolhida, como que deliberadamente, a expressão menos aplicável à Rússia, pois é discutível se o termo “feudalismo” se aplica à nossa Idade Média. E, no entanto, a descrição dada da sociedade burguesa “desenvolvida” é, em substância, aplicável também à Rússia (os pequenos produtores independentes e os pequenos camponeses “sobreviveram”, vendem “sua força de trabalho periódica ou constantemente” etc.). Assim, por sua própria formulação, o projeto refuta a opinião de que não se pode escrever nenhuma definição do desenvolvimento do capitalismo que tenha clara e diretamente a Rússia em vista.</p>
+
+      <p>“Os pequenos produtores, artesãos-produtores, que trabalham por encomenda...” Por encomenda dos consumidores, ou dos comerciantes que distribuem trabalho? Provavelmente o primeiro. Mas é precisamente na Rússia que a maioria dos pequenos produtores da indústria trabalha para o mercado, e não por encomenda.</p>
+
+      <p>“...A maior parte dos artigos de consumo”... (por que não também “dos meios de produção”?) “...é produzida para venda no mercado interno ou mundial...” As palavras sublinhadas são uma repetição desnecessária, já que o aumento do intercâmbio internacional já é tratado no § I.</p>
+
+      <p>“...Os meios de produção e de circulação” das mercadorias. Creio que as palavras sublinhadas deveriam ser transferidas do programa para o comentário, já que se pode inferir que os capitalistas possuem os meios de circulação a partir do fato de possuírem os meios de produção numa sociedade de economia mercantil.</p>
+
+      <p>“...De pessoas que não possuem meios de produção nem de circulação, exceto sua força de trabalho...” Não é assim que se deve dizer.</p>
+
+      <p>A referência à venda “constante ou periódica” da força de trabalho — “por um ano inteiro ou por vários meses” — é um detalhe supérfluo, que deveria ser transferido para o comentário.</p>
+
+      <p>(§ VI) “...Um aumento da importância econômica das grandes empresas industriais” — e mais adiante: a redução do papel dos pequenos produtores independentes em geral. Será acidental a omissão das grandes empresas agrícolas? Ou pretendia-se dizer que a importância econômica das grandes empresas só aumenta na indústria, ao passo que o papel das pequenas empresas diminui tanto na indústria quanto na agricultura? Se for este o caso, então isso estaria absolutamente errado. A “importância econômica das grandes empresas” também está aumentando na agricultura (basta mencionar o maquinário como um exemplo — e outros exemplos são dados acima). Naturalmente, o processo aqui é imensuravelmente mais complexo, mas isso terá de ser dito (e dito com explicações concretas) no comentário.</p>
+
+      <p>...Dependentes “mais ou menos completamente, mais ou menos visivelmente, mais ou menos onerosamente...” — são palavras que, a meu ver, são redundantes e enfraquecem o sentido. A formulação do projeto original — “servos e tributários” — é mais forte e mais gráfica.</p>
+
+      <p>O § VII começa com uma reiteração supérflua, referindo-se novamente à “transformação dos pequenos produtores em proletários”, embora isso já tenha sido observado nos §§ V e VI.</p>
+
+      <p>O § VII dá uma explicação elaborada do fato de que o crescimento da procura por força de trabalho fica atrás do crescimento de sua oferta. A exposição, nesse caso, dificilmente se beneficia de tal “elaboração”. Em todo caso, é claro que não se dá nenhuma explicação completa do processo (por exemplo, menciona-se o crescente emprego do trabalho feminino e infantil, mas não se menciona a crescente intensificação do trabalho etc.). Seria, portanto, mais correto remeter todas as explicações (com exemplos concretos) ao comentário, e formular no programa apenas em que consiste a contradição do capitalismo e qual é sua tendência.</p>
+
+      <p>Levanta-se a objeção de que, ao dizer que “quanto maior o grau de progresso técnico, mais o crescimento da procura por força de trabalho fica atrás do crescimento de sua oferta”, a questão é apresentada de modo incorreto, já que o “crescimento da oferta” está longe de depender apenas do “progresso técnico”. Mas essa objeção não procede, pois as palavras “quanto maior — mais” não equivalem, de modo algum, às palavras “já que — consequentemente”. O parágrafo anterior explica o que causa o “crescimento da oferta” (“ruína”, “suplantação” etc.), e isso será explicado de modo mais concreto no comentário.</p>
+
+      <p>“...A parcela da classe operária no total da riqueza material criada por seu trabalho está constantemente diminuindo...” Essas palavras aparecem no parágrafo que trata da intensificação da exploração. Poder-se-ia pensar, portanto, que por “parcela” se entende a relação entre v e v + m. Mas, nesse caso, isso é supérfluo e não corresponde às palavras “total da riqueza”.</p>
+
+      <p>Se, porém, o total = c + v + m, então, em primeiro lugar, não é muito correto denominar c + m (em contraste com v) de “parcela”, pois por “parcela” se entende aquilo que é partilhado, isto é, artigos de consumo. Além disso, nesse caso, essa proposição pertence, em substância, ao parágrafo seguinte, que trata do aumento da riqueza social (c + v + m) e da desigualdade social. Tendo isso em vista, seria melhor omitir as palavras citadas, por serem uma repetição supérflua.</p>
+
+      <p>Ademais, essas palavras, tal como formuladas, pressupõem uma sociedade tão desenvolvida a ponto de consistir apenas em trabalhadores assalariados e capitalistas, e isso não se harmoniza com o § V, que mantém pequenos produtores mesmo numa sociedade “desenvolvida”.</p>
+
+      <p>O § VIII deveria vir depois dos §§ IX e X: estes últimos tratam das crises, isto é, de uma das contradições do capitalismo, ao passo que o § VIII resume todas as contradições do capitalismo e todas as tendências de seu desenvolvimento.</p>
+
+      <p>Às palavras “aumento da produtividade do trabalho” deveria ser acrescentado: “do trabalho social, que se torna constantemente mais socializado”. O projeto fala, no lugar errado, do processo de socialização do trabalho (§ XI), e de forma estreita demais (“o processo de progresso técnico combina cada vez mais o trabalho dos trabalhadores”). A socialização capitalista do trabalho não consiste apenas na “combinação do trabalho dos trabalhadores”.</p>
+
+      <p>As palavras “um alargamento da distância entre os proprietários e os desprovidos de propriedade”, que vêm após as palavras “um aumento da desigualdade social”, são uma repetição supérflua. Por outro lado, a referência ao “abismo crescente” entre o proletariado e a burguesia deve necessariamente ser acrescentada, a fim de definir a principal consequência social de todas as contradições indicadas do capitalismo e passar à luta de classes.</p>
+
+      <p>A propósito, quanto a uma definição das consequências sociais do capitalismo, deve-se dizer que é justamente aqui que o projeto padece de abstração, limitando-se à proposição totalmente inadequada: “multiplicação das dificuldades na luta pela existência e de todas as privações e sofrimentos que acompanham essa luta”. Em minha opinião, é absolutamente essencial indicar de modo mais definido quais são as consequências sociais que pesam mais fortemente tanto sobre a classe operária quanto sobre os pequenos produtores.</p>
+
+      <p>Uma objeção levantada contra a formulação dessas consequências no contraprojeto é, por exemplo, que as palavras “humilhação de todo tipo” não seriam verdadeiras. Creio que são verdadeiras, pois abrangem fenômenos como a prostituição, a transformação da “intelligentsia” em meros assalariados, a transformação do trabalhador em vendedor de sua esposa e de seus filhos, a submissão à disciplina de ferro do capital, o uso do poder econômico para a opressão política, para pressionar a liberdade de opinião, e assim por diante. Do mesmo modo, parece-me absolutamente essencial apontar a “pobreza e a miséria das massas” sob o capitalismo. Não estou proposing falar do crescimento absoluto da pobreza e da miséria, mas compartilho plenamente a opinião de Kautsky de que <em>ein ausführliches s.-d. Programm, welches nicht erkennen lässt, dass der Kapitalismus naturnotwendig Massenarmut und Massenelend erzeugt... verschweigt die entscheidende Seite unserer Bewegung und enthält also eine empfindliche Lücke</em> (contra o projeto austríaco).</p>
+
+      <p>Parece-me igualmente essencial assinalar que “todas as principais” (portanto, não absolutamente todas) “vantagens do processo de desenvolvimento das forças produtivas são monopolizadas por uma ínfima minoria da população”.</p>
+
+      <h3>Os §§ IX e X (as crises)</h3>
+      <p>Os §§ IX e X tratam das crises. Considerando a formulação alterada, não há aqui, em substância, nada a que se possa objetar. Em termos de forma, porém, esses parágrafos padecem de repetições (novamente “mercado mundial”, novamente “relações de produção capitalistas”). Seria muito melhor eliminar completamente do programa a tentativa de explicar as crises, limitando-se a assinalar que elas são inevitáveis, e deixando a explicação e o desenvolvimento para o comentário. Do jeito que está, faz-se referência, por exemplo, a crises e a “períodos de estagnação”, mas, no geral, todo o ciclo da indústria capitalista não é de forma alguma abrangido.</p>
+
+      <p>As consequências sociais das crises são indicadas, mas novamente com repetições (basta mencionar o “agravamento” do processo etc.) e, mais uma vez, de modo vago demais: as crises não apenas dificultam a posição dos pequenos produtores, não apenas levam à deterioração relativa e absoluta de suas condições, mas efetivamente os arruínam e os empurram para as fileiras do proletariado.</p>
+
+      <h3>Os §§ XI e XII (o proletariado e os pequenos produtores)</h3>
+      <p>Contra os §§ XI e XII, tenho uma objeção de princípio extremamente importante: esses parágrafos apresentam a relação entre o proletariado e os pequenos produtores de modo inteiramente unilateral e incorreto (pois “as massas trabalhadoras e exploradas” são compostas precisamente pelo proletariado e pelos pequenos produtores). Os dois parágrafos estão em franca contradição com as teses fundamentais do Manifesto Comunista, com os Estatutos Gerais da Internacional, e com a maioria dos programas social-democratas atuais; abrem caminho para os equívocos narodniks, “críticos” e pequeno-burgueses de todo tipo.</p>
+
+      <p>“...O descontentamento das massas trabalhadoras e exploradas cresce” — isso é verdade, mas é absolutamente incorreto identificar o descontentamento do proletariado com o do pequeno produtor, fundindo os dois como se faz aqui. O descontentamento dos pequenos produtores muito frequentemente engendra (e inevitavelmente deve engendrar neles, ou numa parcela considerável deles) o ímpeto de defender sua existência como pequenos proprietários, isto é, de defender os fundamentos da ordem atual, e até mesmo de fazê-la retroceder.</p>
+
+      <p>“...Sua luta e, sobretudo, a luta de seu representante mais avançado, o proletariado, torna-se mais aguda...” A luta também se torna mais aguda entre os pequenos produtores, é claro. Mas a “luta” destes é, muito frequentemente, dirigida contra o proletariado, pois, em muitos aspectos, a própria posição dos pequenos produtores contrapõe agudamente seus interesses aos do proletariado. De modo geral, o proletariado não é, de forma alguma, o “representante mais avançado” da pequena burguesia. Se isso ocorre, é apenas quando os pequenos produtores compreendem que sua ruína é inevitável, quando “abandonam seu próprio ponto de vista para se colocarem no do proletariado”. Ocorre com muita frequência, por outro lado, que o antissemita e o grande latifundiário, o nacionalista e o narodnik, o reformador social e o “crítico do marxismo” sejam os representantes mais avançados do pequeno produtor atual que ainda não abandonou “seu próprio ponto de vista”. É o mínimo apropriado agrupar todo e qualquer tipo de agudização, sobretudo no momento presente, em que a “agudização da luta” dos pequenos produtores é acompanhada pela “agudização da luta” da “Gironda socialista” contra a “Montanha”.</p>
+
+      <p>“...A social-democracia internacional está à frente do movimento de emancipação das massas trabalhadoras e exploradas...” De modo algum. Ela está à frente apenas da classe operária, apenas do movimento operário, e, se outros elementos se juntam a essa classe, eles são apenas elementos, e não classes. E só aderem completa e absolutamente quando “abandonam seu próprio ponto de vista”.</p>
+
+      <p>“...Organiza suas forças de combate...” Novamente incorreto. A social-democracia não organiza, em lugar nenhum, as “forças de combate” dos pequenos produtores. Ela organiza apenas as forças de combate da classe operária. A formulação escolhida no projeto é tanto menos apropriada quanto menos se aplica à Rússia, e quanto mais restrita a exposição (cf. § V) à sociedade burguesa “desenvolvida”.</p>
+
+      <p>Summa summarum. O projeto fala em forma positiva do espírito revolucionário da pequena burguesia (se ela “apoia” o proletariado, isso não significaria que é revolucionária?), sem uma única palavra sobre seu conservadorismo (e mesmo seu espírito reacionário). Isso é inteiramente unilateral e incorreto.</p>
+
+      <p>Podemos (e devemos) apontar em forma positiva o conservadorismo da pequena burguesia. E somente de forma condicional devemos apontar seu espírito revolucionário. Só uma formulação assim coincidirá plenamente com todo o espírito dos ensinamentos de Marx. Por exemplo, o Manifesto Comunista declara abertamente que “de todas as classes que hoje se opõem à burguesia... só o proletariado é uma classe verdadeiramente revolucionária... O pequeno industrial... o artesão, o camponês... não são revolucionários, mas conservadores. Mais ainda, são reacionários... Se por acaso são revolucionários, [“se”] o são apenas em vista de sua iminente passagem ao proletariado... abandonam seu próprio ponto de vista para se colocarem no do proletariado”.</p>
+
+      <p>Além disso, falta aqui a referência à ditadura do proletariado, contida no projeto original. Mesmo que isso tenha ocorrido acidentalmente, por descuido, ainda assim é indubitável que o conceito de “ditadura” é incompatível com o reconhecimento positivo de apoio externo ao proletariado. Se soubéssemos realmente, com certeza, que a pequena burguesia apoiará o proletariado na realização de sua revolução, seria inútil falar de “ditadura”, pois estaríamos então plenamente garantidos de uma maioria tão esmagadora que poderíamos muito bem dispensar a ditadura (como os “críticos” gostariam que acreditássemos). O reconhecimento da necessidade da ditadura do proletariado está estreita e inseparavelmente ligado à tese do Manifesto Comunista de que só o proletariado é uma classe verdadeiramente revolucionária.</p>
+
+      <p>Posso ouvir a objeção de que o contraprojeto expressa em forma positiva o conservadorismo do pequeno produtor (“todas as demais classes da sociedade atual defendem a preservação dos fundamentos do sistema econômico existente”), ao passo que o espírito revolucionário não é expresso nem mesmo condicionalmente.</p>
+
+      <p>Essa objeção é totalmente infundada. O espírito revolucionário condicional do pequeno produtor é expresso no contraprojeto da única forma em que pode ser expresso, isto é, na própria formulação da denúncia do capitalismo. O espírito revolucionário condicional do pequeno produtor é expresso:</p>
+      <p>(1) — nas palavras sobre sua expulsão e ruína pelo capitalismo. Nós, o proletariado, acusamos o capitalismo de provocar a grande produção por meio da ruína do camponês. Daí a conclusão direta de que, se o camponês compreende a inevitabilidade desse processo, ele “abandonará seu próprio ponto de vista e se colocará no nosso”.</p>
+      <p>(2) — nas palavras: “a insegurança da existência e o desemprego, o jugo da exploração e a humilhação de todo tipo tornam-se o destino” (não só do proletariado, mas) “de setores cada vez mais amplos da população trabalhadora”. Essa própria formulação expressa o fato de que o proletariado representa toda a população trabalhadora, e, além disso, uma representação em que exortamos (e obrigamos) a todos a abandonarem seu próprio ponto de vista e a se colocarem no nosso, e não o inverso — não abandonamos nosso próprio ponto de vista, nem fundimos nossa luta de classes com a luta de todo tipo de indecisos.</p>
+      <p>(3) — nas palavras sobre a pobreza e a miséria das massas (as massas em geral, e não apenas os trabalhadores).</p>
+
+      <p>É somente sob essa forma que o partido da classe revolucionária pode expressar o espírito revolucionário condicional das outras classes, a fim de lhes apresentar sua compreensão da miséria delas e o caminho para remediá-la, e, em sua declaração de guerra ao capitalismo, falar não apenas em seu próprio nome, mas em nome de todas as massas “pobres e miseráveis”. Daí decorre que quem aceitar essa doutrina deve se juntar a nós. Seria simplesmente ridículo que fizéssemos disso um ponto especial no programa, e declarássemos que, se certos elementos pouco confiáveis adotarem nosso ponto de vista, eles também serão revolucionários! Essa seria a melhor maneira de destruir a fé em nós justamente entre aqueles aliados hesitantes e frouxos que, de todo modo, já não têm fé em nós.</p>
+
+      <p>Além dessa objeção de princípio aos §§ XI e XII, tenho também uma observação formal menor contra o § XI. Este não é o lugar apropriado para falar da “possibilidade material de acabar com o capitalismo”; o que esse parágrafo trata não são os pressupostos materiais, mas os ideológicos, para que se acabe com o capitalismo. Se os pressupostos materiais são mencionados, então também deveria haver referência aos pressupostos ideológicos (morais etc.). Seria, no entanto, muito mais correto transferir essa “possibilidade material” para o parágrafo que trata da evolução e das tendências do capitalismo, e não para o da luta de classes.</p>
+
+      <p>É ilógico falar, no § XII, da revolução social que se aproxima — e só no § XV dessa mesma revolução e de sua necessidade. A ordem deveria ser invertida.</p>
+
+      <h3>Os §§ XIII a XX</h3>
+      <p>No § XIII, a substituição da expressão “abolição (ou eliminação) da propriedade privada” por “expropriação dos exploradores” não é, em minha opinião, uma escolha feliz. É menos clara e precisa. Tampouco está bem formulado o final do parágrafo: “a organização planejada do processo social de produção, de modo a satisfazer as necessidades da sociedade como um todo, bem como as de seus membros individuais”. Isso não é suficiente. Uma organização desse tipo talvez seja oferecida até mesmo pelos trustes. Seria mais definido dizer “pela sociedade como um todo” (pois isso abrange o planejamento e indica quem é responsável por ele), e não apenas satisfazer as necessidades de seus membros, mas com o objetivo de assegurar o pleno bem-estar e o livre desenvolvimento multifacetado de todos os membros da sociedade.</p>
+
+      <p>O § XIV é, a meu ver, indefinido (eu ainda não sei se emanciparemos “toda” a “humanidade” oprimida: como, por exemplo, a opressão das pessoas de caráter fraco pelas de caráter muito forte). Seria melhor usar a formulação dada por Marx em sua crítica ao Programa de Gotha: a abolição da divisão em classes e da desigualdade dela decorrente. Também Engels, em sua crítica ao Programa de Erfurt, insisted que <em>die Abschaffung der Klassen ist unsere Grundforderung</em> [a abolição das classes é nossa exigência fundamental], e que só por meio de uma referência precisa e direta a essa “exigência fundamental” daremos um significado absolutamente definido (e não exaggerated) às nossas promessas de emancipar a todos e livrá-los de todos os males.</p>
+
+      <p>§ XV — já tratei acima do “apoio ao proletariado por outros setores da população” e da omissão da “ditadura do proletariado”.</p>
+
+      <p>O § XVI é, no geral, estranho e fora de lugar. A “educação política” do proletariado consiste em nós o esclarecermos, organizarmos e dirigirmos sua luta — e isso já foi tratado no § XII (ao qual apenas se deveria acrescentar “a direção de sua luta”).</p>
+
+      <p>O § XVII também me parece um excesso de verbosidade supérflua. Qual é o sentido de falar em termos gerais sobre a dependência de nossas tarefas imediatas em relação a várias situações sociais e políticas? Que isso seja tratado em tratados, ao passo que devemos dizer claramente que determinadas peculiaridades definidas (os resíduos do regime servil, a autocracia etc.) modificam nossa tarefa imediata de uma maneira definida.</p>
+
+      <p>§ XVIII: “Na Rússia, o capitalismo está se tornando cada vez mais o modo de produção predominante...” Isso é, sem dúvida, insuficiente. Ele já se tornou predominante (se digo que 60 já se tornou predominante sobre 40, isso não significa, de modo algum, que 40 não exista, ou que tenha sido reduzido à insignificância). Ainda temos tantos narodniks, liberais pró-narodniks e “críticos” que rapidamente revertem a ideias narodniks, que é inadmissível deixar espaço para a menor vagueza nesse ponto. E se o capitalismo ainda nem sequer se tornou “predominante”, então talvez fosse melhor esperar um pouco também com a social-democracia.</p>
+
+      <p>“...Levando a social-democracia ao primeiríssimo lugar...” O capitalismo apenas começa a se tornar predominante, mas nós já estamos no “primeiríssimo” lugar... Em minha opinião, não devemos falar de modo algum sobre o primeiríssimo lugar: isso é evidente por si mesmo, a partir de todo o programa. Deixemos que seja a história a dizer isso a nosso respeito, em vez de dizê-lo nós mesmos.</p>
+
+      <p>O projeto evidentemente rejeita a expressão “o antigo regime social servil”, considerando que a expressão “regime servil” se aplica apenas à estrutura jurídica. Creio que essa distinção é infundada: o “regime servil” foi, sem dúvida, uma instituição jurídica, mas também correspondeu a um sistema específico de economia dos latifundiários (e dos camponeses) e, além disso, manifestou-se em inúmeras relações cotidianas que não estavam previstas “por lei”. Por essa razão, dificilmente é aconselhável evitar a expressão: “o antigo sistema social pré-capitalista, servil”.</p>
+
+      <p>A “descrição” da servidão (de que as massas eram, por assim dizer, gado batizado) é totalmente fora de lugar e supérflua em nosso programa.</p>
+
+      <p>Por outro lado, é insuficiente dizer, sobre a influência dos resíduos do regime servil, que eles pesam sobre a massa da população trabalhadora. Devemos também indicar o retardamento do desenvolvimento das forças produtivas do país, e outras consequências sociais da servidão.</p>
+
+      <p>§ XIX. Em minha opinião, é totalmente supérfluo afirmar que a democracia (resp. a liberdade política) é, para nós, um “estágio de transição” (transição para quê? Afinal, dizemos abertamente mais adiante que uma república é nossa exigência prática imediata) — e que uma constituição é “o complemento jurídico natural das relações de produção capitalistas”. Isso está absolutamente fora de lugar no programa. Seria inteiramente suficiente dizer que a autocracia retarda ou restringe “todo o desenvolvimento social”: logo, o desenvolvimento do capitalismo também é incompatível com ela. Detalhes a esse respeito deveriam ser relegados ao comentário, pois, no programa, eles até enfraquecem nossa declaração de guerra à autocracia, conferindo ao programa um ar livresco e abstrato.</p>
+
+      <p>Além disso, qual o sentido dessas passagens gerais sobre complementos jurídicos ao capitalismo e sobre uma “estrutura jurídica” (§ XX), quando mais adiante falamos de modo muito mais direto e definido sobre uma república? (Além disso, o § XX contém a expressão “o antigo regime servil”, isto é, aqui o próprio projeto atribui à palavra “regime servil” um sentido mais amplo do que o puramente jurídico.)</p>
+
+      <p>Tampouco há sentido em falar sobre a incompatibilidade da autocracia com uma estrutura jurídica, já que a exigência de sua derrubada e substituição por uma república se segue imediatamente. Seria melhor nos expressarmos de modo mais definido sobre a “ausência de direitos” do povo sob a autocracia etc.</p>
+
+      <p>“...A autocracia é o inimigo mais encarniçado das aspirações da classe operária à emancipação...” A isso deveria ser acrescentado: “e do desenvolvimento cultural de todo o povo”, ou palavras nesse sentido. Assim (e não falando de “representação”) indicaremos que a social-democracia representa os interesses não apenas da classe operária, mas de todo o progresso social.</p>
+
+      <h3>Conclusão</h3>
+      <p>Resumindo todas as observações acima, encontro quatro deficiências básicas no projeto, que, em minha opinião, o tornam inaceitável:</p>
+      <p>1) a extrema abstração de muitas das formulações, a ponto de parecerem destinadas a uma série de palestras, e não a um partido combatente;<br>
+      2) a evasão e o obscurecimento da questão do capitalismo especificamente russo constituem uma deficiência particularmente grave, já que o programa deve fornecer um compêndio e um guia para a agitação contra o capitalismo russo. Devemos apresentar uma avaliação direta do capitalismo russo e uma declaração de guerra aberta especificamente contra ele;<br>
+      3) a apresentação inteiramente unilateral e incorreta da relação entre o proletariado e os pequenos produtores, que retira de nós o terreno na luta contra os “críticos” e muitos outros;<br>
+      4) o esforço constante, no programa, de dar explicações do processo. As explicações, de todo modo, não atingem seu propósito, a exposição se torna prolixa, ocorrem numerosas repetições, e o programa constantemente resvala para um comentário.</p>
+    </article>
+
+    <!-- TEXTO 6 -->
+    <article id="texto-6">
+      <h2>6. OPINIÃO SOBRE O SEGUNDO PROJETO DE PLEKHÂNOV</h2>
+      <p class="note">Escrito no final de fevereiro–início de março de 1902.</p>
+      <p>Quatro deficiências básicas permeiam todo o projeto e, em minha opinião, o tornam inteiramente inaceitável:</p>
+      <p>1) Pela forma como está formulada a seção mais importante, que contém uma definição do capitalismo, este projeto é o programa de um manual econômico sobre o capitalismo em geral, e não o programa do proletariado, que luta contra manifestações muito reais de um capitalismo muito definido.</p>
+      <p>2) O programa é particularmente inadequado para o partido do proletariado russo, porque a evolução do capitalismo russo e os antagonismos e males sociais engendrados pelo capitalismo russo são quase inteiramente evadidos e obscurecidos por esse mesmo sistema de definir o capitalismo em geral. Em seu programa, o partido do proletariado russo deve formular, da maneira mais inequívoca possível, sua acusação contra o capitalismo russo, sua declaração de guerra ao capitalismo russo. Isso é tanto mais necessário quanto o programa russo não pode ser idêntico, nesse aspecto, aos programas europeus: estes falam do capitalismo e da sociedade burguesa sem indicar que esses conceitos se aplicam igualmente à Áustria, à Alemanha etc., porque isso é evidente por si mesmo. Em relação à Rússia, isso não pode ser dado como certo.</p>
+      <p>Contornar a questão dizendo que o capitalismo “em sua forma desenvolvida” se distingue em geral por tais e tais traços — e que na Rússia o capitalismo “está se tornando predominante” — é evadir a acusação concreta e a declaração de guerra que são o mais importante para um partido engajado numa luta prática.</p>
+      <p>É por isso que o projeto falha em alcançar um dos principais objetivos de um programa: fornecer ao Partido uma diretriz para sua propaganda e agitação cotidianas a respeito de todas as várias manifestações do capitalismo russo.</p>
+      <p>3) Alguns dos parágrafos mais importantes são formulados no projeto com uma imprecisão que inevitavelmente engendrará interpretações equivocadas muito perigosas e dificultará nossa luta teórica e nossa propaganda. Assim, por exemplo, o crescimento da grande produção é limitado às empresas “industriais”. A evolução do capitalismo agrário é desconsiderada, ou até mesmo evadida. Além disso, em vez de “a ditadura do proletariado”, temos “a revolução que o proletariado terá de realizar com o apoio de outros setores da população que sofrem a exploração capitalista”, e até mesmo a luta de classes do proletariado foi substituída pela “luta das massas trabalhadoras e exploradas”. Essa formulação contradiz o princípio básico da Internacional: “A emancipação dos trabalhadores deve ser obra da própria classe operária.” Além do proletariado, a outra parte das “massas trabalhadoras e exploradas” (isto é, principalmente os pequenos produtores) só é parcialmente revolucionária em sua luta contra a burguesia. Ela só é revolucionária quando, “com vistas a se juntar ao proletariado”, “se coloca no ponto de vista do proletariado” (Manifesto Comunista). Quanto à natureza reacionária dos pequenos produtores, isso não é evidenciado no projeto, de modo que, no conjunto, a relação do proletariado com as “massas trabalhadoras e exploradas” é apresentada de modo incorreto. (Por exemplo, o projeto diz: “sua luta [a luta das massas trabalhadoras e exploradas] e, sobretudo, a luta de seu representante mais avançado, o proletariado, torna-se mais aguda.” O “agravamento da luta” dos pequenos produtores se expressa no antissemitismo, no cesarismo, nas uniões camponesas contra os trabalhadores agrícolas, e até mesmo na luta da Gironda socialista contra a Montanha. A representação de todas as massas trabalhadoras e exploradas pelo proletariado deveria ser expressa no programa em nossa acusação ao capitalismo pela pobreza das massas [e não apenas pela pobreza da classe operária], pelo desemprego entre “setores cada vez mais amplos da população trabalhadora” [e não apenas da classe operária].)</p>
+      <p>4) O projeto escorrega constantemente de um programa, no sentido estrito da palavra, para um comentário. Um programa deve dar afirmações concisas, sem uma única palavra supérflua, e deixar todas as explicações para comentários, panfletos, agitação etc. Engels tinha, portanto, plena razão ao acusar o Programa de Erfurt de ser longo demais, repleto de detalhes e repetições excessivos, tendendo a se tornar um comentário.</p>
+      <p>No projeto, essa deficiência é ainda mais manifesta; há uma quantidade terrível de repetições; em todo caso, as tentativas de introduzir explicações do processo no programa (em vez de apenas dar uma definição do processo) não alcançam seu propósito e tornam o programa impossivelmente prolixo.</p>
+    </article>
+
+    <!-- TEXTO 7 -->
+    <article id="texto-7">
+      <h2>7. OBSERVAÇÕES SOBRE O PROJETO DE PROGRAMA DO COMITÊ</h2>
+      <p class="note">Escrito em 30 de março (12 de abril) de 1902.</p>
+      <p>Nota: este texto reproduz, ponto por ponto, o projeto redigido pelo comitê editorial, seguido das observações críticas de Lênin escritas à margem. Um ponto de interrogação (?) indica, no original, um desejo de aprimorar o estilo.</p>
+
+      <h3>1.</h3>
+      <p><strong>Texto do Comitê:</strong> O desenvolvimento do intercâmbio internacional establishedu laços tão estreitos entre todas as nações do mundo civilizado que o grande movimento emancipador do proletariado teve de se tornar, e há muito se tornou, um movimento internacional.</p>
+      <p><strong>Observações de Lênin:</strong> (sem observação específica)</p>
+
+      <h3>2.</h3>
+      <p><strong>Texto do Comitê:</strong> Por essa razão, os social-democratas russos consideram seu Partido um dos destacamentos do exército mundial do proletariado, parte da social-democracia internacional, e perseguem o mesmo objetivo final que os social-democratas de todos os outros países.</p>
+      <p><strong>Observações de Lênin:</strong> O estilo precisa ser revisado. Este “como” não é um bom russo. Estilo desajeitado. “Eles perseguem o mesmo objetivo final que os social-democratas de todos os outros países se propuseram”, ou algo nesse sentido.</p>
+
+      <h3>3.</h3>
+      <p><strong>Texto do Comitê:</strong> Esse objetivo final é determinado pela natureza e pelo curso de desenvolvimento da sociedade burguesa. Essa sociedade se caracteriza pelo predomínio da produção mercantil sob relações de produção capitalistas, isto é, pelo fato de que a parte mais importante e mais considerável dos artigos de consumo é produzida para venda no mercado interno ou mundial, e a parte mais importante e mais considerável dos meios de produção e de circulação desses artigos de consumo — mercadorias — pertence a uma classe относительно pequena de pessoas, enquanto a maioria esmagadora da população é composta, em parte, de pessoas que não possuem meios de produção nem de circulação (proletários), e, em parte, daquelas que dispõem apenas de meios de produção muito insignificantes, que não asseguram sua existência (certos setores de pequenos produtores, como, por exemplo, pequenos camponeses e artesãos). Todas essas pessoas são obrigadas, por sua posição econômica, a vender sua força de trabalho constante ou periodicamente, isto é, a se alugar aos proprietários dos meios de produção e de circulação das mercadorias, e, por seu trabalho, a criar a renda destes últimos.</p>
+      <p><strong>Observações de Lênin:</strong> Eu recomendaria que se suprimissem as palavras “a natureza e” por serem supérfluas. O objetivo final é determinado pelo curso, e não pelas modificações desse “curso” geral, que são explicadas pelo conceito de “natureza do desenvolvimento”. Por isso, essas palavras supérfluas também não são muito precisas.<br>
+      Por que só “artigos de consumo”? E os meios de produção? “Produtos” etc. seria melhor.<br>
+      Deveriam ser acrescentadas as palavras “aos capitalistas e proprietários de terra”. Caso contrário, o resultado é um conceito abstrato, particularmente fora de lugar ao lado dos subsequentes “camponeses e artesãos”.<br>
+      “E de circulação” deveria ser suprimido. Proletários da mais pura cepa podem ter, e de fato têm, “meios de circulação”, que são trocados por artigos de consumo.<br>
+      O estilo precisa de revisão! “Meios de produção” asseguram (?) a existência.</p>
+
+      <h3>4.</h3>
+      <p><strong>Texto do Comitê:</strong> O predomínio das relações de produção capitalistas cresce cada vez mais à medida que o progresso técnico constante, ao aumentar a importância econômica das grandes empresas, suplanta os pequenos produtores independentes, isto é, provoca um declínio relativo em seu número, convertendo parte deles em proletários, diminui o papel dos demais na vida social e econômica, e em certos lugares os torna mais ou menos completamente, mais ou menos visivelmente, mais ou menos onerosamente, dependentes dos grandes industriais.</p>
+      <p><strong>Observações de Lênin:</strong> “Do capital” — não apenas do grande capital.</p>
+
+      <h3>5.</h3>
+      <p><strong>Texto do Comitê:</strong> Ao converter parte dos pequenos produtores independentes em proletários, esse progresso técnico leva a um aumento ainda maior na oferta de força de trabalho, possibilitando aos industriais empregar o trabalho feminino e infantil em grau cada vez maior no processo de produção e circulação de mercadorias. E já que, por outro lado, esse mesmo processo de progresso técnico (mecânico) leva a uma diminuição relativa da necessidade, por parte dos industriais, do trabalho físico dos trabalhadores, a procura por força de trabalho necessariamente fica atrás de sua oferta, em consequência do que a dependência do trabalho assalariado em relação ao capital aumenta, e a exploração daquele por este se intensifica. A parcela da classe operária na soma total da renda social criada por seu trabalho está constantemente diminuindo.</p>
+      <p><strong>Observações de Lênin:</strong> Essas palavras deveriam ser suprimidas como uma repetição desnecessária da ideia já expressa na proposição anterior. Em geral, o § 5 evidencia, de modo particularmente nítido, o defeito geral do projeto: períodos longos e uma prolixidade indesejável na exposição. A propósito: isso resulta no que Engels, em sua crítica ao Projeto de Erfurt, chamou de <em>schiefe Nebenbedeutung</em> [a possibilidade de interpretação equivocada]. Por exemplo, parece que o aumento no emprego do trabalho feminino e infantil se deve unicamente à “conversão” dos pequenos produtores independentes em proletários, quando não é bem assim; isso também ocorre antes de tal “conversão”. O início do § 5 é uma repetição supérflua.</p>
+
+      <h3>6.</h3>
+      <p><strong>Texto do Comitê:</strong> Esse estado de coisas na sociedade burguesa... A superprodução, que causa crises industriais mais ou menos graves, seguidas de períodos mais ou menos longos de estagnação industrial, é um resultado inevitável do crescimento das forças produtivas, na ausência de planejamento característica da produção mercantil, e sob as relações de produção capitalistas inerentes à sociedade atual. Por sua vez, as crises e os períodos de estagnação industrial tornam ainda mais difícil a posição dos pequenos produtores independentes e levam, ainda mais rapidamente, à deterioração relativa — e, em certos lugares, até mesmo absoluta — das condições dos proletários.</p>
+      <p><strong>Observações de Lênin:</strong> Omissão. Repetição, de novo!! Isso é insuficiente. Eles não apenas “tornam sua posição difícil”, mas os arruínam completamente, em massa. A primeira parte do § 6 ganharia muito se fosse encurtada.</p>
+
+      <h3>7.</h3>
+      <p><strong>Texto do Comitê:</strong> Assim, o progresso técnico, que implica um aumento da produtividade do trabalho e o crescimento da riqueza social, acarreta, na sociedade burguesa, um aumento da desigualdade social, um alargamento da distância entre os proprietários e os desprovidos de propriedade, um crescimento da insegurança da existência, do desemprego e da pobreza de todo tipo.</p>
+      <p><strong>Observações de Lênin:</strong> “Crescimento da pobreza de todo tipo” — esse empréstimo do meu projeto não é muito feliz. Eu não falei do crescimento da pobreza. “De todo tipo” inclui também “absoluta”. A referência à pobreza das massas deveria, portanto, ser formulada de modo um tanto diferente.</p>
+
+      <h3>8.</h3>
+      <p><strong>Texto do Comitê:</strong> Mas, à medida que todas essas contradições, inerentes ao modo de produção capitalista, crescem e se desenvolvem, também cresce o descontentamento das massas trabalhadoras e exploradas com a ordem de coisas existente, e a luta de seu representante mais avançado — o proletariado — contra os defensores dessa ordem se torna mais aguda. Ao mesmo tempo, o progresso técnico, ao socializar o processo de trabalho dentro da oficina e ao concentrar a produção, cria, cada vez mais rapidamente, a possibilidade da revolução social, que constitui o objetivo final de toda a atividade da social-democracia internacional, como porta-voz consciente do movimento de classe do proletariado.</p>
+      <p><strong>Observações de Lênin:</strong> O § 8 mostra a teimosa recusa do comitê em observar a condição precisa e inequívoca que lhe foi imposta em seu próprio “nascimento”. Com base nessa condição, deveria ter sido feita uma inserção (o que o comitê fez no § 10) e, além disso, antes dessa inserção, o texto deveria tratar apenas da luta de classes do proletariado, exclusivamente. Essa última exigência, claramente expressa no acordo de conciliação, não foi cumprida pelo comitê, e considero que estou em meu direito de insistir para que seja cumprida.<br>
+      Antes do que é dito ao final do § 10, é incorreto falar do descontentamento de todas as massas trabalhadoras em geral e chamar o proletariado de seu “representante mais avançado”, já que isso só é verdadeiro sob a condição expressa ao final do § 10. O comitê apresenta o condicional como algo incondicional. A meia medida do pequeno produtor e seu espírito semirreacionário não foram, de forma alguma, expressos pelo comitê: isso é totalmente inadmissível. O resultado é que a possibilidade de encontrar esse pequeno produtor (ou parte desse setor) entre os “defensores de princípio dessa ordem” (a mesma expressão usada no § 8!!) foi inteiramente esquecida!! E, no entanto, essa possibilidade muito frequentemente se torna realidade diante de nossos próprios olhos.<br>
+      Para termos o direito de falar do movimento do proletariado, de sua luta de classes e mesmo da ditadura de classe, é necessário primeiro isolar essa única classe, e só então acrescentar algo sobre seu papel como representante. Caso contrário, o resultado é uma falta de coerência no projeto; o § 8 não se conecta, em lógica estrita, nem com sua continuação (por que não uma “ditadura das massas trabalhadoras”??), nem com seu início (se todos os antagonismos sociais se agravam, isso significa que a luta das duas classes se torna cada vez mais aguda, e isso é algo que o comitê se esqueceu de assinalar!!). Não se sustenta.<br>
+      A socialização do trabalho está longe de se limitar ao que ocorre dentro da oficina: esta passagem precisa ser corrigida. & “e a necessidade” (da revolução social).</p>
+
+      <h3>9.</h3>
+      <p><strong>Texto do Comitê:</strong> Essa revolução social consistirá na remoção das relações de produção capitalistas e em sua substituição por relações de produção socialistas, isto é, consistirá na expropriação dos exploradores com o propósito de converter os meios de produção e de circulação dos produtos em propriedade pública, e na organização planejada do processo de produção social, de modo a satisfazer as necessidades tanto da sociedade como um todo quanto de seus membros individuais. A realização desse objetivo emancipará toda a humanidade oprimida, pois porá fim a todas as formas de exploração de uma parte da sociedade por outra.</p>
+      <p><strong>Observações de Lênin:</strong> Não é preciso. Essa “satisfação” também é “dada” pelo capitalismo, mas não a todos os membros da sociedade, e não em igual medida.</p>
+
+      <h3>10.</h3>
+      <p><strong>Texto do Comitê:</strong> Para realizar sua revolução social, o proletariado deve conquistar o poder político (a ditadura de classe), o que o tornará senhor da situação e lhe permitirá superar todos os obstáculos. Organizando-se para esse fim num partido político independente, que se opõe a todos os partidos burgueses, o proletariado convoca todos os demais setores da população que sofrem a exploração capitalista a se juntarem às suas fileiras, contando com seu apoio, na medida em que tenham consciência da falta de esperança de sua posição na sociedade atual e se coloquem no ponto de vista do proletariado.</p>
+      <p><strong>Observações de Lênin:</strong> “Opõe-se a todos os partidos burgueses” significa também aos partidos pequeno-burgueses, não é mesmo?? Mas a maioria dos pequeno-burgueses são “trabalhadores e explorados”. Isso não se sustenta.<br>
+      A social-democracia organiza e convoca. “O proletariado... convoca para suas (!) fileiras” — <em>ganz unmöglich!</em> [absolutamente impossível!]<br>
+      As palavras “contando com seu apoio” deveriam ser suprimidas. São redundantes (se convoca, isso já significa que conta com o apoio) e têm <em>schiefe Nebenbedeutung</em>. Convoca aqueles que têm consciência, na medida em que têm consciência, <em>das genügt</em> [isso basta].</p>
+
+      <h3>11.</h3>
+      <p><strong>Texto do Comitê:</strong> O Partido Social-Democrata, o partido do proletariado combatente, dirige todas as manifestações de sua luta de classes, revela a todas as massas trabalhadoras e exploradas o antagonismo irreconciliável entre os interesses dos exploradores e os interesses dos explorados, e lhes explica o significado histórico e os pressupostos indispensáveis para a futura revolução social.</p>
+      <p><strong>Observações de Lênin:</strong> “Irreconciliabilidade dos interesses [das massas] com a própria existência do capitalismo”, ou uma correção semelhante. Nem todos os trabalhadores se encontram numa posição em que seus “interesses” sejam “irreconciliavelmente” opostos aos interesses dos exploradores. O camponês trabalhador tem algo, um pouco, em comum com o grande proprietário de terra. Precisamos de afirmações mais gerais e amplas, para que o resultado não seja uma imprecisão e se converta em palavrório vazio.</p>
+
+      <h3>12.</h3>
+      <p><strong>Texto do Comitê:</strong> Mas, apesar da identidade de seu objetivo final comum, uma identidade condicionada pelo predomínio do mesmo modo de produção em todo o mundo civilizado, os social-democratas de diferentes países não se propõem as mesmas tarefas imediatas, tanto porque esse modo não está desenvolvido em igual grau em toda parte, quanto porque seu desenvolvimento em diferentes países ocorre sob condições sociais e políticas variadas.</p>
+      <p><strong>Observações de Lênin:</strong> Estilo!! § 12 — o final. Deveria-se tentar encurtar isso. Seria muito útil que este parágrafo diminuísse. Não seria possível condensar dez palavras em duas, dizendo “peculiaridades nacionais”, ou expressão semelhante?</p>
+
+      <h3>13.</h3>
+      <p><strong>Texto do Comitê:</strong> Na Rússia, ao lado do capitalismo, que rapidamente estende a esfera de seu domínio e cada vez mais se torna o modo de produção predominante, encontramos a cada passo resíduos de nossa antiga ordem social pré-capitalista, baseada na servidão das massas trabalhadoras aos senhores de terra, ao Estado, ou ao chefe do Estado. Esses resíduos retardam ao mais alto grau o desenvolvimento das forças produtivas, dificultam o pleno desenvolvimento da luta de classes do proletariado, rebaixam o padrão de vida da população trabalhadora, são responsáveis pela forma asiaticamente bárbara com que o campesinato, forte em milhões, está sendo arruinado e reduzido à degradação, e mantêm todo o povo num estado de ignorância, ausência total de direitos, e sujeição.</p>
+      <p><strong>Observações de Lênin:</strong> § 13 — o início. Meus mais humildes agradecimentos pelo pequeno passo em minha direção. Mas “tornando-se o predominante...” Estilo! § 13 — o final. Correção desejável: já sugeri como (nas minhas emendas ao meu projeto), ou você prefere “... forma bárbara com que... está sendo arruinado e reduzido à degradação...”?</p>
+
+      <h3>14.</h3>
+      <p><strong>Texto do Comitê:</strong> Como o mais destacado de todos os resíduos de nosso regime servil e o mais formidável baluarte de toda essa barbárie, a autocracia tsarista é totalmente incompatível com as liberdades políticas e civis, há muito existentes nos países avançados de produção capitalista, como o complemento jurídico natural dessa produção. Por sua própria natureza, ela deve esmagar todo movimento social e está fadada a ser o inimigo mais encarniçado de todas as aspirações emancipatórias do proletariado. Por essas razões, a social-democracia russa coloca como sua tarefa política imediata a derrubada da autocracia tsarista e sua substituição por uma república baseada numa constituição democrática que assegure, etc.</p>
+      <p><strong>Observações de Lênin:</strong> Estilo. “Complemento jurídico natural” — um pensamento correto, muito mal expresso. Para o capitalismo, a “naturalidade” da liberdade é complicada por 1.001 fatores sociais e históricos, que a palavra “natural” não evidencia. Além disso, ela cheira, tresanda, a uma espécie de liberalismo. Deveria-se dizer algo no sentido de que “a autocracia está inevitavelmente condenada à morte por todo o desenvolvimento do capitalismo, que exige imperativamente liberdades civis e políticas para a expressão de seus interesses cada vez mais complexos”, ou algo assim — em suma, a ideia de inevitabilidade deveria ser expressa, sem dar margem a mal-entendidos ao atribuir essa inevitabilidade a desenvolvimentos “naturais”. Isso não serve. Nem todo: o bimetalismo (e o pré-rafaelitismo) também são “movimentos sociais”. Isso precisa ser corrigido.</p>
+
+      <h3>Observações finais de Lênin</h3>
+      <p>De modo geral, quanto mais se lê o projeto do Comitê, mais se convence do fato de que ele é, por assim dizer, semidigerido. Tomo a liberdade de prever que essa qualidade do projeto nos trará uma boa dose de censuras justificadas, se o publicarmos nessa forma. Todos verão que ele foi apenas “colado”.</p>
+      <p>Se o Senhor Deus escolheu nos castigar por nossos pecados, obrigando-nos a apresentar um projeto “mestiço”, deveríamos ao menos fazer tudo o que estiver ao nosso alcance para reduzir as infelizes consequências. Por isso, aqueles que se guiam, acima de tudo, pelo desejo de “terminar logo com isso” estão completamente equivocados. Pode-se dar como certo que, dada essa conjuntura, nada além do mal resultará da pressa, e nosso projeto editorial será insatisfatório. Não é absolutamente necessário publicá-lo no número 4 do Zarya: podemos publicá-lo no número 5, ou numa tiragem especial antes que o número 5 apareça. Se fizermos isso, um atraso de um mês ou coisa parecida não fará mal algum ao Partido. E, de fato, seria melhor se o ilustre comitê o revisasse novamente com cuidado, refletisse sobre ele, o digerisse, e nos desse um projeto próprio, um projeto integral, em vez de um que foi colado. Repito: se essa tarefa for irrealizável, seria muito melhor voltar ao plano de dois projetos (e seremos plenamente capazes de executar esse plano sem qualquer “estranheza”: Plekhânov publica seu projeto com sua assinatura no Zarya, e eu publico o meu “à parte”, em Genebra, como X, Y ou Z). Solicito respeitosamente ao ilustre Conselho que dê sua atenta consideração a “todas as circunstâncias do caso”.</p>
+    </article>
+
+    <!-- TEXTO 8 -->
+    <article id="texto-8">
+      <h2>8. OBSERVAÇÕES ADICIONAIS SOBRE O PROJETO DE PROGRAMA DO COMITÊ</h2>
+      <p class="note">Escrito em abril de 1902.</p>
+      <p>Além das observações que escrevi sobre o próprio projeto, gostaria de anotar o seguinte:</p>
+      <p>§ 3. “A sociedade (burguesa) se caracteriza pelo predomínio da produção mercantil sob relações de produção capitalistas, isto é,” ... segue-se então uma descrição dos traços básicos do capitalismo. O resultado é uma incongruência: o “isto é” conecta conceitos dissimilares e desiguais, a saber: 1) a modificação da produção mercantil numa forma condicionada pelo predomínio das relações de produção capitalistas, e 2) a venda de produtos no mercado e a venda de sua força de trabalho pelas massas da população.</p>
+      <p>Essa incongruência, essa equiparação dos traços básicos e mais gerais da produção mercantil em geral e do capitalismo em geral — com as modificações da produção mercantil com base nas relações de produção capitalistas (quando as mercadorias já não são trocadas simplesmente de acordo com o valor) — mostra claramente quão pobre é a formulação de G. V. Plekhânov (e, no entanto, o comitê adotou essa formulação, apenas reformulando-a). Num programa que apresenta apenas os traços mais gerais e básicos do capitalismo, e que sequer expõe a teoria da mais-valia, de repente “acenamos” para Böhm-Bawerk, lembrando que a “produção mercantil com base no capitalismo” não é exatamente a mesma coisa que a produção mercantil simples! Se assim é, por que não acrescentar ao programa referências especiais a Mikhailovsky, Berdyaev e afins? Por um lado, usa-se apenas uma expressão socialista muito geral para cobrir até mesmo todo o ensinamento de Marx sobre a exploração do trabalho pelo capital: “criam, por seu trabalho, a renda destes últimos” (final do § 3) — e, por outro lado, faz-se menção à transformação específica da mais-valia em lucro sob a “produção mercantil com base nas relações de produção capitalistas”.</p>
+      <p>G. V. Plekhânov tem toda a razão ao afirmar que as palavras “produção mercantil com base nas relações de produção capitalistas” expressam a ideia fundamental do Volume III [de O Capital]. Mas isso é tudo. Não há sentido em incluir essa ideia no programa — assim como não há sentido em descrever, no programa, o mecanismo da realização, que é a ideia fundamental do Volume II, ou em descrever a conversão do lucro excedente em renda fundiária. No programa, basta observar a exploração do trabalho pelo capital = a criação de mais-valia, ao passo que falar de toda sorte de transformação e modificação das formas dessa mais-valia está fora de lugar (e é impossível em poucas proposições breves).</p>
+
+      <h3>Adição sobre a Luta de Classes</h3>
+      <p>Compartilho inteiramente a opinião de V. Zassulitch de que, em nosso país, é possível atrair uma proporção muito maior de pequenos produtores para as fileiras da social-democracia, e muito mais rapidamente (do que no Ocidente), que para alcançar isso devemos fazer tudo o que estiver ao nosso alcance, e que esse “desejo” deveria ser expresso no programa “contra” os Martynov e companhia. Estou de pleno acordo com tudo isso. Saúdo o acréscimo feito ao final do § 10 — enfatizo isso para evitar qualquer mal-entendido.</p>
+      <p>No entanto, não há necessidade de ir ao outro extremo, como faz V. Zassulitch! Um “desejo” não deve ser confundido com a realidade — e, ainda por cima, com uma realidade imanentemente necessária, à qual, unicamente, se dedica nossa <em>Prinzipienerklärung</em>.</p>
+      <p>Seria desejável atrair todos os pequenos produtores — naturalmente. Mas sabemos que eles constituem uma classe à parte, ainda que ligada ao proletariado por mil laços e graus intermediários, mas, ainda assim, uma classe à parte.</p>
+      <p>Em primeiro lugar, é essencial traçar uma linha de demarcação entre nós e todos os demais, isolar o proletariado sozinho e exclusivamente, e só então declarar que o proletariado emancipará a todos, que convoca a todos, que convida a todos.</p>
+      <p>Concordo com esse “só então”, mas exijo que esse “em primeiro lugar” venha primeiro!</p>
+      <p>Aqui na Rússia, os sofrimentos monstruosos das “massas trabalhadoras e exploradas” não suscitaram nenhum movimento popular até que um “punhado” de trabalhadores fabris iniciasse a luta, a luta de classes. E somente esse “punhado” garante a condução, a continuação e a extensão dessa luta. É na Rússia, onde os críticos (Bulgakov) acusam os social-democratas de “campesinofobia”, e os social-revolucionários gritam sobre a necessidade de substituir o conceito de luta de classes pelo conceito de “a luta de todos os trabalhadores e explorados” (Vestnik Russkoi Revolutsii, nº 2) — é na Rússia que devemos, em primeiro lugar, traçar uma linha de demarcação entre nós e toda essa ralé, por meio da definição mais nítida possível da luta de classes exclusivamente do proletariado, e somente então declarar que convocamos a todos, que empreenderemos tudo, tomaremos tudo, estenderemos a tudo. Mas o comitê “estende”, esquecendo-se de traçar uma linha de demarcação!! E sou acusado de estreiteza de espírito por exigir que essa extensão seja precedida pela “demarcação”?! Mas isso é trapaça, senhores!!</p>
+      <p>A luta que inevitavelmente enfrentaremos amanhã contra as forças combinadas dos críticos e dos senhores ainda mais à esquerda do Russkiye Vedomosti e do Russkoye Bogatstvo, e dos social-revolucionários, exigirá de nós, do modo mais imperativo, precisamente essa demarcação entre a luta de classes do proletariado e a “luta” (será mesmo uma luta?) “das massas trabalhadoras e exploradas”. O palavrório sobre essas massas é uma carta na manga nas mãos de todos os <em>unsicheren Kantonisten</em> [aliados pouco confiáveis], e o comitê está jogando nas mãos deles, privando-nos de uma arma na luta contra a meia-medida, a fim de enfatizar uma metade! Mas não se esqueçam da outra metade!</p>
+    </article>
+
+    <!-- TEXTO 9 -->
+    <article id="texto-9">
+      <h2>9. UMA EMENDA À SEÇÃO AGRÁRIA DO PROGRAMA</h2>
+      <p class="note">Escrito em abril de 1902.</p>
+      <p>Proponho a seguinte emenda à Cláusula 4 de nosso programa agrário: em vez de “Criação de comitês camponeses (a) para a restituição às comunas rurais (por expropriação ou, quando a terra tiver mudado de mãos, por resgate etc.) da terra” etc., que se diga: “Criação de comitês camponeses (a) para a restituição às comunas rurais (por expropriação) da terra que...” etc., isto é, suprimir as palavras em itálico.</p>
+      <p>Parece-me que essa emenda deveria ser feita pelas seguintes razões:</p>
+      <p>1. No programa agrário, apresentamos nosso “máximo”, nossas “reivindicações sócio-revolucionárias” (ver meu comentário). Permitir o resgate de terras, no entanto, vai de encontro à natureza sócio-revolucionária de toda a reivindicação.</p>
+      <p>2. Tanto a tradição histórica do “resgate” (a de 1861) quanto seu próprio conteúdo (cf. a conhecida frase: “o resgate nada mais é do que uma compra”) conferem-lhe o sabor específico de uma medida burguesa, piegas e bem-intencionada. Ao permitirmos o resgate de terras, tornamos possível que toda a essência de nossa reivindicação seja desacreditada (e não faltarão caluniadores dispostos a fazer isso).* [Ao permitir o resgate de terras, estamos rebaixando a restituição das terras cortadas, de uma medida extraordinária e revolucionária, a uma “reforma” das mais mesquinhas.]</p>
+      <p>3. O receio de que se cometeria uma “injustiça” ao retirar as terras cortadas de pessoas que pagaram dinheiro por elas é infundado. De todo modo, já estabelecemos duas condições restritivas para essa medida de restituição das terras cortadas: [(1) — “as terras cortadas em 1861”, e (2) — “atualmente usadas como meio de manter os camponeses em sujeição”.] É absolutamente correto confiscar propriedade que serve aos propósitos da exploração feudal, e fazê-lo sem indenização. (Que o comprador das terras cortadas processe então o vendedor — isso não é problema nosso.)</p>
+      <p>4. Ao permitirmos o “resgate”, estamos colocando o ônus do pagamento em dinheiro sobre os camponeses que, por causa da renda-trabalho, estavam mais profundamente envolvidos na economia natural: a brusquidão da transição para pagamentos em dinheiro pode arruinar os camponeses de modo especialmente rápido, e isso iria de encontro a todo o espírito de nosso programa.</p>
+      <p>5. Mesmo que um comprador de terras cortadas seja “indenizado” a título de exceção, isso de modo algum deve ser feito às custas dos camponeses, que têm o direito moral e histórico a essas terras cortadas. A “indenização” pode ser feita mediante a doação de um lote correspondente em algum lugar nas regiões de fronteira etc.; mas isso não nos diz respeito.</p>
+      <p>Peço a todos que votem: A FAVOR = descartar as palavras sobre o resgate, suprimindo as palavras que indiquei. CONTRA = manter o texto antigo.</p>
+      <p>1) G. V. —<br>
+      2) P. B. —<br>
+      3) V. I. —<br>
+      4) Berg —<br>
+      5) A. N. —<br>
+      6) Frey — a favor.</p>
+    </article>
+
+    <!-- TEXTO 10 -->
+    <article id="texto-10">
+      <h2>10. SINAIS DE BANCARROTA</h2>
+      <p class="note">Iskra, nº 17, 15 de fevereiro de 1902. Publicado de acordo com o texto do Iskra.</p>
+      <p>Passou-se apenas um ano desde que Bogolêpov foi atingido pela bala de Karpóvitch, que abriu caminho para um “novo rumo” na política do governo em relação às universidades. Durante esse ano, observamos sucessivamente uma onda incomum de indignação social, um tom incomumente suave nos discursos de nossos governantes, um lamentável, porém habitual, encantamento da sociedade com esses novos discursos — encantamento que se estendeu também a um certo setor dos estudantes — e, por fim, após o cumprimento das promessas floreadas de Vannóvski, uma nova explosão de protestos estudantis. Àqueles que na primavera passada esperavam uma “nova era” e acreditavam seriamente que o sargento de instrução tsarista cumpriria ao menos uma parcela das esperanças alimentadas pelos estudantes e pela sociedade — em suma, aos liberais russos —, deveria agora estar claro o quanto se enganaram ao voltar a confiar no governo, o quão pouco justificada foi a interrupção do movimento por reformas que, na primavera, começara a assumir formas impressionantes, e o quanto se deixaram embalar pelas doces melodias vindas das sereias governamentais. Depois que a promessa de reintegrar nas universidades todas as vítimas do ano anterior foi quebrada, depois que uma série de novas medidas reacionárias lançou um desafio a todos os que exigiam uma verdadeira reforma do sistema educacional, depois de uma série de novas e violentas repressões contra os manifestantes que exigiam que o falido fraudulento cumprisse suas promessas — depois de tudo isso, o governo da “solicitude cordial” publicou “regulamentos provisórios” para as organizações estudantis como meio de “pacificação” e... em vez da “pacificação”, se vê diante de uma conflagração geral de “distúrbios”, novamente envolvendo todas as instituições de ensino.</p>
+      <p>Nós, revolucionários, jamais acreditamos, nem por um instante, que as reformas prometidas por Vannóvski fossem sérias. Não paramos de dizer aos liberais que as circulares desse general “cordial” e os rescritos de Nicolau Obmánov não passavam de mais uma manifestação da política liberal que a autocracia aprendeu tão bem a dominar em quarenta anos de luta contra o “inimigo interno”, isto é, contra todos os elementos progressistas da Rússia. Advertimos os liberais contra os “sonhos” em que começaram a se entregar após os primeiríssimos passos do governo no espírito do “novo rumo”. Denunciamos a falsidade deliberada das promessas do governo, e advertimos a sociedade: “Se seu adversário foi atordoado pelo primeiro ataque sério, continuem desferindo novos golpes, redobrando sua força e frequência...” Essa paródia do direito de se organizar, que os “regulamentos provisórios” agora oferecem aos estudantes, foi prevista pelos revolucionários desde o início das conversas sobre esse novo presente do governo. Sabíamos o que se podia e devia esperar da autocracia e de sua miserável tentativa de reforma. Sabíamos que Vannóvski não “pacificaria” nada nem ninguém, que não cumpriria nenhuma esperança progressista, e que os “distúrbios” inevitavelmente se repetiriam de uma forma ou de outra.</p>
+      <p>Passou-se um ano, mas a sociedade continua marcando passo. As instituições de ensino superior, que deveriam existir em qualquer Estado bem-ordenado, voltaram a parar de funcionar. Dezenas de milhares de jovens tiveram, mais uma vez, o rumo de suas vidas perturbado, e a sociedade se vê, mais uma vez, diante da velha pergunta: “E agora?”</p>
+      <p>Uma maioria considerável dos estudantes se recusou a reconhecer os “regulamentos provisórios” e as organizações por eles permitidas. Com maior determinação do que costumam demonstrar, os professores expressam evidente insatisfação com esse presente do governo. E, de fato, não é preciso ser revolucionário, não é preciso ser radical, para reconhecer que essa dita “reforma” não apenas deixa de dar aos estudantes algo que se pareça com liberdade, como também é inútil como meio de trazer qualquer tranquilidade à vida universitária. Não é imediatamente óbvio que esses “regulamentos provisórios” criam, de antemão, uma série de motivos de conflito entre os estudantes e as autoridades? Não é óbvio que a introdução desses regulamentos ameaça transformar qualquer reunião estudantil, legalmente convocada com o propósito mais pacífico, num ponto de partida para novos “distúrbios”? Pode-se duvidar, por exemplo, de que, ao presidir tais reuniões, os inspetores, que exercem funções policiais, irão constantemente irritar uns, provocar protestos em outros, e intimidar e silenciar ainda outros? E não é claro que os estudantes russos não permitirão que o caráter das discussões em tais reuniões seja determinado à força, segundo o “critério” das autoridades?</p>
+      <p>No entanto, o “direito” de reunião e organização concedido pelo governo, na forma absurda estabelecida pelos “regulamentos provisórios”, é o máximo que a autocracia pode dar aos estudantes, se quiser continuar sendo uma autocracia. Qualquer novo passo nessa direção equivaleria a uma perturbação suicida do equilíbrio sobre o qual repousam as relações do governo com seus “súditos”. Conformar-se com esse máximo que o governo pode oferecer, ou intensificar o caráter político e revolucionário de seu protesto — esse é o dilema que os estudantes enfrentam. A maioria está adotando a segunda alternativa. Mais claramente do que nunca, uma nota revolucionária ressoa nos apelos e resoluções dos estudantes. A política de alternar repressão brutal com beijos de Judas está fazendo seu trabalho e revolucionando a massa estudantil.</p>
+      <p>Sim, de um jeito ou de outro, os estudantes resolveram a questão que enfrentavam e declararam que estão novamente prontos para retomar a arma que haviam deposto (sob a influência das cantigas de ninar). Mas o que pretende fazer a sociedade, que parece ter cochilado ao som dessas traiçoeiras cantigas de ninar? Por que ela insiste em manter silêncio e em “simpatizar em segredo”? Por que não se ouve falar de protestos da sociedade, de seu apoio ativo à agitação renovada? Estará ela realmente disposta a esperar “calmamente” pelos inevitáveis acontecimentos trágicos que sempre acompanharam todo movimento estudantil até hoje? Pretende realmente se limitar ao papel miserável de contabilizar o número de vítimas na luta e observar passivamente suas cenas chocantes? Por que não ouvimos a voz dos “pais”, quando os “filhos” já declararam inequivocamente sua intenção de oferecer novos sacrifícios no altar da liberdade russa? Por que nossa sociedade não apoia os estudantes ao menos do modo como os trabalhadores já os apoiaram? Afinal, as instituições de ensino superior não são frequentadas pelos filhos e irmãos dos proletários, e, no entanto, os trabalhadores de Kiev, Kharkov e Ekaterinoslav já declararam abertamente sua simpatia pelos manifestantes, apesar de uma série de “medidas preventivas” tomadas pelas autoridades policiais e apesar de suas ameaças de usar força armada contra os manifestantes. Será possível que essa manifestação do idealismo revolucionário do proletariado russo não venha a influenciar o comportamento da sociedade, que tem interesse vital e direto no destino dos estudantes, e não a incite a um protesto enérgico?</p>
+      <p>Os “distúrbios” estudantis deste ano começam sob auspícios bastante favoráveis. Contam com a simpatia da “multidão”, da “rua”. Seria um erro criminoso, por parte da sociedade liberal, não fazer todo esforço para desmoralizar completamente o governo, dando apoio oportuno aos estudantes, e arrancar dele concessões reais.</p>
+      <p>O futuro imediato mostrará até que ponto nossa sociedade liberal é capaz de desempenhar tal papel. O resultado do atual movimento estudantil depende, em grande medida, da resposta a essa pergunta. Mas, qualquer que seja esse resultado, uma coisa é certa: a recorrência de distúrbios estudantis gerais, depois de uma trégua tão breve, é um sinal da bancarrota política do regime atual. Há três anos as universidades não conseguem se estabelecer numa vida normal, os estudos são conduzidos aos trancos e barrancos, uma das engrenagens da máquina de Estado deixa de funcionar e, após girar inutilmente por um tempo, volta a parar por um longo período. Não há dúvida de que, sob o atual regime político, não existe cura radical para essa doença. O falecido Bogolêpov procurou salvar a pátria por um método “heroico”, tomado de empréstimo da medicina ultrapassada prescrita por Nicolau I. Sabemos aonde isso levou. É evidente que não pode haver mais progresso nessa direção. A política de flertar com os estudantes agora sofreu um fiasco. Mas não há outro caminho além da violência e do flerte, e cada nova manifestação dessa inquestionável bancarrota do regime existente irá minar cada vez mais seus alicerces, privando o governo de todo o prestígio aos olhos dos filisteus indiferentes, e aumentando o número de pessoas que percebem a necessidade de lutar contra ele.</p>
+      <p>Sim, a bancarrota da autocracia está fora de dúvida, e ela se apressa em anunciar esse fato ao mundo inteiro. Não é uma declaração de bancarrota o fato de que um “estado de emergência” foi proclamado em pelo menos um terço do Império, e de que as autoridades locais, em todas as partes da Rússia, publicaram simultaneamente “decretos compulsórios” que proíbem, sob pena de severas penalidades, atos que as leis russas já não permitem de todo modo? Por sua própria natureza, todos os regulamentos de emergência, que suspendem a aplicação das leis ordinárias, destinam-se a vigorar apenas por um tempo limitado e numa área limitada. Presume-se que circunstâncias extraordinárias exigem a aplicação temporária de medidas de emergência em localidades definidas, com o propósito de restaurar o equilíbrio necessário para o funcionamento desimpedido das leis ordinárias. Esse é o argumento usado pelos representantes do regime existente. Passaram-se mais de vinte anos desde a introdução da lei de emergência. Vinte anos de sua vigência nos principais centros do Império não trouxeram a “pacificação” do país, nem restauraram a ordem pública. Depois que esse remédio poderoso esteve em uso por vinte anos, parece que a doença da “insegurança”, que ele foi criado para combater, tornou-se tão difundida e criou raízes tão profundas que se tornou necessário estendê-lo a todas as cidades e centros fabris de qualquer importância! Não é isso uma bancarrota, abertamente declarada pelo próprio falido? Os adeptos convictos da ordem atual (sem dúvida existem alguns) devem se horrorizar com o fato de que a população está gradualmente se acostumando a esse remédio potente, e deixando de reagir a novas doses dele.</p>
+      <p>A bancarrota da política econômica do governo também vem à tona, desta vez contra sua vontade. Os métodos rapaces da autocracia para administrar a economia repousaram sobre a exploração monstruosa do campesinato. Esses métodos deram como certa, como consequência inevitável, a recorrência de fomes entre os camponeses, aqui e ali. Nessas ocasiões, o Estado predatório tentou se exibir diante da população no nobre papel de provedor solícito precisamente do mesmo povo que havia roubado. A partir de 1891, as fomes cobraram um enorme tributo de vítimas, e, a partir de 1897, se sucederam quase sem interrupção. Em 1892, Tolstói zombou amargamente do fato de que “o parasita se prepara para alimentar a planta cujos sucos o sustentam”. Era, de fato, uma ideia absurda. Os tempos mudaram e, com a fome se tornando um estado normal de coisas no campo, nosso parasita já não está tão preocupado com a ideia utópica de alimentar o campesinato saqueado, quanto em declarar essa mesma ideia um crime contra o Estado. O objetivo foi alcançado — a enorme fome de hoje ocorre numa atmosfera de silêncio absoluto, incomum até mesmo em nosso país. Os gemidos dos camponeses famintos não são ouvidos; não há nenhuma tentativa, por parte do público, de tomar a iniciativa no combate à fome; os jornais nada dizem sobre a situação nas aldeias. Um silêncio invejável — mas será que os senhores Sipyaguin não sentem que essa quietude lembra muito a calmaria que precede uma tempestade?</p>
+      <p>O sistema estatal, que há séculos repousa sobre o apoio passivo de milhões de camponeses, os reduziu a um estado em que, ano após ano, são incapazes de prover seu próprio sustento. Essa bancarrota social da monarquia dos senhores Obmánov não é menos instrutiva do que sua bancarrota política.</p>
+      <p>Quando serão liquidados os negócios de nosso falido fraudulento? Conseguirá ele continuar por muito mais tempo, vivendo de um dia para o outro, remendando os buracos em seu orçamento político e financeiro com a pele tirada do corpo vivo do organismo nacional? O período de tolerância, maior ou menor, que a história concederá ao nosso falido dependerá de muitos fatores; mas um dos mais importantes será o grau de atividade revolucionária demonstrado por aqueles que já se deram conta da completa bancarrota do regime existente. Sua decadência está num estágio avançado, muito à frente da mobilização política dos elementos sociais destinados a serem seus coveiros. Essa mobilização política será realizada com a máxima eficácia pela social-democracia revolucionária, a única capaz de desferir um golpe mortal na autocracia. O novo confronto entre os estudantes e o governo nos permite, e nos obriga, a todos, a acelerar essa mobilização de todas as forças sociais hostis à autocracia. Meses de combates na vida política valem, aos olhos da história, o equivalente a anos. Os tempos em que vivemos são, de fato, tempos de combate.</p>
+    </article>
+
+  </main>
+
+  <a href="#top" class="btn-topo">↑ Topo</a>
+
+</body>
+</html>
